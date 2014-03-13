@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Sarah Stancik | design portfolio</title>
@@ -18,24 +18,22 @@
 			<!--nav-->
 			<nav id="nav">
 				<ul>
-					<li><a href="#work" id="workNav"><div class="button">WORK</div></a></li>
-					<li><a href="#about" id="aboutNav"><div class="button">ABOUT</div></a></li>
-					<li><a href="#contact" id="contactNav"><div class="button">CONTACT</div></a></li>
+					<li><a href="resume.html" id="resumeNav"><div class="button">RESUME</div></a></li>
+					<li><a href="about.html" id="aboutNav"><div class="button">ABOUT</div></a></li>
+					<li><a href="contact.html" id="contactNav"><div class="button">CONTACT</div></a></li>
 				</ul>
 			</nav>
 
 		</header>
 
 		<!--intro-->
-		<section id="intro">
 			<div class="introContainer">
 				<h2>Welcome.</h2>
 				<p>current project here ></p>
 				<p>scroll to see more work</p>
 			</div>
-		</section></a>
 
-		<section id="work">
+		<!--sorted work-->
 			<div id="sort">
 				<ul>
 					<li>Current</li>
@@ -59,70 +57,6 @@
 				<div class="preview">9</div>
 			</div>
 
-		</section>
-
-		<section id="about">
-			<div class="aboutContainer">
-				<h2>Get to know me.</h2>
-				<p>I like to think my work speaks for itself,
-				but here's a little more about me:</p>
-				<br>
-				<p>I am an architecture student at the University of Texas at Austin with plans to graduate in 2016. Though it began as a hobby, web design and coding in general have become passions of mine. I enjoy participating in hackathons and tech lectures/info sessions.</p>
-			</div>
-
-		</section>
-
-		<section id="contact">
-			<div class="contactContainer">
-
-				<?php
-					function spamcheck($field) {
-						// Sanitize email address
-						$field=filter_var($field, FILTER_SANITIZE_EMAIL);
-						// Validate email address
-						if (filter_var($field, FILTER_VALIDATE_EMAIL)) {
-							return TRUE;
-						} else {
-							return FALSE;
-						}
-					}
-				?>
-				<h2>Say hello.</h2>
-				<?php
-					// Display form if user has not clicked submit
-					if (!isset($_POST["submit"])) {
-						?>
-						<form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
-							<input type="text" name="from" class="input"><br><br>
-							<input type="text" name="subject" class="input"><br><br>
-							<textarea name="message"></textarea><br>
-							<button type="submit" value="Send">Send</button>
-						</form>
-						<?php
-					} else {
-						// The user has submitted the form
-						// Check if the "from" input field is filled out
-						if (isset($_POST["from"])) {
-							// Check if "from" email address is valid
-							$mailcheck = spamcheck($_POST["from"]);
-							if ($mailcheck==FALSE) {
-								echo "Invalid input";
-							} else {
-								$from = $_POST["from"]; // Sender
-								$subject = $_POST["subject"];
-								$message = $_POST["message"];
-								// Message lines should not exceed 70 characters (PHP rule, so wrap it)
-								$message = wordwrap($message, 70);
-								// Send mail
-								mail("webmaster@example.com", $subject, $message, "From: $from\n");
-								echo "Talk to you soon!";
-							}
-						}
-					}
-				?>
-
-			</div>
-		</section>
 
 
 		<!--footer-->
