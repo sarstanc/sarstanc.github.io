@@ -1,7 +1,11 @@
-function onHover(this) {
-	document.getElementById("facebook").style.src = "images/facebookHover.png";
-}
+function() {
 
-function unHover(this) {
-	document.getElementById("facebook").style.src = "images/facebook.png";
-}
+	var img = document.getElementById('preview').firstChild;
+	img.onload = function() {
+		if(img.height > img.width) {
+			img.height = '100%';
+			img.width = 'auto';
+		}
+	};
+
+};
