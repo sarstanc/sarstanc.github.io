@@ -1,19 +1,22 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-@font-face {
-	font-family: ArcherPro;
-	src: url('fonts/archerpro.otf');
+* {
+	margin: auto;
 }
 
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@font-face {
+	font-family: 'AvenirNext';
+	src: url('assets/fonts/AvenirNext.ttc');
+}
 
 ::-moz-selection {
-    background: #f2c2c9;
-    color: #a4003a;
+    background: #F5821F;
+    color: #FFF;
     text-shadow: none;
 }
 
 ::selection {
-    background: #16a085;
-    color: #a4003a;
+    background: #F5821F;
+    color: #FFF;
     text-shadow: none;
 }
 
@@ -56,12 +59,8 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-h1, h4 {
-	font-family: 'ArcherPro';
-}
-
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 700;
+	font-family: 'AvenirNext', sans-serif;
     color: #4a4a4a;
 }
 
@@ -70,28 +69,39 @@ h6 {
 	font-size: 16px;
 }
 
+p {
+	font-family: 'AvenirNext', sans-serif;
+	text-align: left;
+}
 
 .navbar-brand {
 	font-weight: 700;
 }
 
 .navbar-default .navbar-brand {
-	color: #1abc9c;
+	color: #999;
 }
 
 .navbar-default {
 	background-color: transparent;
 	border-color: transparent;
+	margin-top: 2px;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #1abc9c;
+	color: #F5821F;
 	background-color: transparent;
-	border-bottom: 2px solid #1abc9c
+	border-bottom: 2px solid #F5821F;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #1abc9c;
+	color: #999;
+}
+
+#narrow {
+	width: 60%;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 /* ==========================================================================
@@ -135,30 +145,27 @@ h6 {
 }
 
 #social {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background-color: #2f2f2f;
+	position: bottom;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
+	bottom: 0px;
+	width: 100%;
 }
 
 #social .icon {
 	display: inline-block;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 #social i {
-	font-size: 40px;
-	color: #4a4a4a;
+	font-size: 35px;
+	color: #999;
 }
 
 #social i:hover {
-	color: #1abc9c
-}
-
-#social .copyright {
-	display: inline-block;
-	right: 0px;
+	color: #F5821F
 }
 
 #workwrap {	
