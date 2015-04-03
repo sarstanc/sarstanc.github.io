@@ -4,8 +4,10 @@
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @font-face {
-	font-family: 'AvenirNext';
-	src: url('assets/fonts/AvenirNext.ttc');
+font-family: 'Avenir Next LT Pro Regular';
+font-style: normal;
+font-weight: normal;
+src: url('AvenirNextLTPro-Regular.woff');
 }
 
 ::-moz-selection {
@@ -60,17 +62,14 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'AvenirNext', sans-serif;
+	font-family: 'Montserrat';
+	font-weight: normal;
     color: #4a4a4a;
 }
 
-h6 {
-	font-weight: 200;
-	font-size: 16px;
-}
-
 p {
-	font-family: 'AvenirNext', sans-serif;
+	font-family: 'AvenirNextLTPro-Regular';
+	font-weight: normal;
 	text-align: left;
 }
 
