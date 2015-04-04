@@ -4,18 +4,20 @@
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @font-face {
-	font-family: 'AvenirNext';
-	src: url('assets/fonts/AvenirNext.ttc');
+font-family: 'Avenir Next LT Pro Regular';
+font-style: normal;
+font-weight: normal;
+src: url('AvenirNextLTPro-Regular.woff');
 }
 
 ::-moz-selection {
-    background: #F5821F;
+    background: #98cbcb;
     color: #FFF;
     text-shadow: none;
 }
 
 ::selection {
-    background: #F5821F;
+    background: #98cbcb;
     color: #FFF;
     text-shadow: none;
 }
@@ -60,17 +62,14 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'AvenirNext', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
     color: #4a4a4a;
 }
 
-h6 {
-	font-weight: 200;
-	font-size: 16px;
-}
-
 p {
-	font-family: 'AvenirNext', sans-serif;
+	font-family: 'AvenirNextLTPro-Regular', sans-serif;
+	font-weight: normal;
 	text-align: left;
 }
 
@@ -89,9 +88,9 @@ p {
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #F5821F;
+	color: #98cbcb;
 	background-color: transparent;
-	border-bottom: 2px solid #F5821F;
+	border-bottom: 2px solid #98cbcb;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -113,10 +112,6 @@ p {
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 650px;
-	width: 100%;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -165,7 +160,7 @@ p {
 }
 
 #social i:hover {
-	color: #F5821F
+	color: #98cbcb
 }
 
 #workwrap h1 {
