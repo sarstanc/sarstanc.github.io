@@ -3,11 +3,23 @@
 }
 
 @font-face {
-	font-family: ArcherPro;
+	font-family: 'ArcherPro';
+	font-style: normal;
+	font-weight: normal;
 	src: url(../fonts/ArcherPro-Medium.otf);
-	font-family: Ailerons;
+}
+
+@font-face {
+	font-family: 'Ailerons';
+	font-style: normal;
+	font-weight: normal;
 	src: url(../fonts/Ailerons.ttf);
-	font-family: Futura;
+}
+
+@font-face {
+	font-family: 'Futura';
+	font-style: normal;
+	font-weight: normal;
 	src: url(../fonts/Futura.ttf);
 }
 
