@@ -4,17 +4,17 @@
 
 @font-face {
 	font-family: ArcherPro;
-	src: url(fonts/ArcherPro-Medium.otf);
+	src: url(../fonts/ArcherPro-Medium.otf);
 	font-family: Ailerons;
-	src: url(fonts/Ailerons.ttf);
+	src: url(../fonts/Ailerons.ttf);
 	font-family: Futura;
-	src: url(fonts/Futura.ttf);
+	src: url(../fonts/Futura.ttf);
 }
 
 body {
 	font-family: ArcherPro, sans-serif;
 	color: #fff;
-	background: #fcd211;
+	background: url(../img/construction.png) top center no-repeat #fcd211;
 }
 
 @media (min-width: 1200px) {
