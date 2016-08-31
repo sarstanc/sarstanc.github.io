@@ -3,30 +3,19 @@
 }
 
 @font-face {
-	font-family: 'ArcherPro';
-	font-style: normal;
-	font-weight: normal;
-	src: url(../fonts/ArcherPro-Medium.otf);
+	font-family: 'Lato', sans-serif;
+	src: url("https://fonts.googleapis.com/css?family=Lato:300");
 }
 
 @font-face {
-	font-family: 'Ailerons';
-	font-style: normal;
-	font-weight: normal;
-	src: url(../fonts/Ailerons.ttf);
-}
-
-@font-face {
-	font-family: 'Futura';
-	font-style: normal;
-	font-weight: normal;
-	src: url(../fonts/Futura.ttf);
+	font-family: 'Courier New';
+	src: url(../fonts/Courier New.ttf);
 }
 
 body {
-	font-family: ArcherPro, sans-serif;
-	color: #fff;
-	background: url(../img/construction.png) top center no-repeat #fcd211;
+	font-family: 'Lato', sans-serif;
+	color: black;
+	background: url(../img/outline_mustard.png) top center no-repeat;
 }
 
 @media (min-width: 1200px) {
@@ -45,8 +34,8 @@ body {
 }
 
 #title {
-	font-family: Ailerons;
-	font-size: 50px;
+	font-family: 'Courier New', serif;
+	font-size: 18pt;
 	text-align: center;
 	padding-bottom: 30px;
 	line-height: 45px;
@@ -54,17 +43,10 @@ body {
 }
 
 p {
-	font-size: 24px;
-	line-height: 26px;
+	font-size: 16px;
+	line-height: 24px;
 	text-align: center;
 	font-weight: 100;
-}
-
-#and {
-	padding-top: 8px;
-	padding-bottom: 20px;
-	font-family: Futura;
-	font-size: 50px;
 }
 
 a {
@@ -73,21 +55,21 @@ a {
 
 div.button {
 	background: white;
-	font-family: Futura, sans-serif;
+	outline: solid thin #999;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 10pt;
 	text-transform: uppercase;
 	color: black;
 	text-align: center;
 	width: 250px;
-	height: 30px;
-	padding: 2px;
+	height: 28px;
+	padding: 1px;
 	margin-top: 15px;
-	margin-bottom: 20px;
+	margin-bottom: 28px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	-webkit-box-shadow:7px 6px 0px -4px rgba(0,0,0,0.22);
-	-moz-box-shadow: 7px 6px 0px -4px rgba(0,0,0,0.22);
-	box-shadow: 7px 6px 0px -4px rgba(0,0,0,0.22);
 }
 
 
@@ -98,7 +80,7 @@ div.button {
 @media (max-width: 442px) {
 
 	div.button {
-		width: 200px;
+		width: 180px;
 	}
 	
 }
