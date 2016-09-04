@@ -19,7 +19,7 @@ body {
 }
 
 #wrap {
-	margin-top: 10%;
+	margin-top: 100px;
 	text-align: center;
 }
 
@@ -60,11 +60,22 @@ img {
 /*            Responsive style             */
 /*-----------------------------------------*/
 
-@media (min-width: 1200px) {
+@media (max-width: 600px) {
 
-}
+	#wrap {
+		margin: 0;
+	}
 
-@media (max-width: 442px) {
+	.container {
+		margin: 25px;
+	}
 
-	
+	#gifs {
+		text-align: center;
+		max-width: 400px;
+	}
+
+	img {
+		width: 235px;
+	}
 }
