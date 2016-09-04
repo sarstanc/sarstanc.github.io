@@ -3,17 +3,22 @@
 }
 
 @font-face {
-	font-family: 'Lato', sans-serif;
-	src: url("https://fonts.googleapis.com/css?family=Lato:300");
-}
-
-@font-face {
 	font-family: 'Courier New';
 	src: url(../fonts/Courier New.ttf);
 }
 
+@font-face {
+	font-family: 'Lato-Light', sans-serif;
+	src: url(../fonts/Lato-Light.ttf);
+}
+
+@font-face {
+	font-family: 'Lato-LightItalic', sans-serif;
+	src: url(../fonts/Lato-LightItalic.ttf);
+}
+
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato-Light', sans-serif;
 	color: black;
 	background: url(../img/outline_mustard.png) top center no-repeat;
 }
@@ -58,6 +63,36 @@ img {
 
 /*-----------------------------------------*/
 /*            Responsive style             */
+/*-----------------------------------------*/
+
+@media (max-width: 700px) {
+
+	#wrap {
+		margin: 10%;
+	}
+
+	#title {
+		font-size: 34pt;
+		padding-bottom: 25px;
+	}
+
+	p {
+		font-size: 26pt;
+		line-height: 38pt;
+	}
+
+	#gifs {
+		text-align: center;
+	}
+
+	img {
+		width: 70%;
+	}
+}
+
+
+/*-----------------------------------------*/
+/*              Mobile styles              */
 /*-----------------------------------------*/
 
 @media only screen and (max-device-width: 700px) {
