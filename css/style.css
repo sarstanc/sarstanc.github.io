@@ -63,17 +63,17 @@ img {
 @media only screen and (max-device-width: 700px) {
 
 	#wrap {
-		margin: 7%;
+		margin: 10%;
 	}
 
 	#title {
-		font-size: 30pt;
-		padding-bottom: 20px;
+		font-size: 34pt;
+		padding-bottom: 25px;
 	}
 
 	p {
-		font-size: 24pt;
-		line-height: 32pt;
+		font-size: 26pt;
+		line-height: 38pt;
 	}
 
 	#gifs {
@@ -81,6 +81,6 @@ img {
 	}
 
 	img {
-		width: 75%;
+		width: 70%;
 	}
 }
