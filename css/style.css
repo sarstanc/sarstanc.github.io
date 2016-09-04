@@ -2,6 +2,11 @@
 	margin: 0;
 }
 
+
+/*-----------------------------------------*/
+/*                 Fonts                   */
+/*-----------------------------------------*/
+
 @font-face {
 	font-family: 'Courier New';
 	src: url(../fonts/Courier New.ttf);
@@ -17,10 +22,15 @@
 	src: url(../fonts/Lato-LightItalic.ttf);
 }
 
+
+/*-----------------------------------------*/
+/*                  Main                   */
+/*-----------------------------------------*/
+
 body {
 	font-family: 'Lato-Light', sans-serif;
 	color: black;
-	background: url(../img/outline_mustard.png) top center no-repeat;
+	background: url(../img/outline_mustard.png) top center repeat;
 }
 
 #wrap {
@@ -33,11 +43,15 @@ body {
 	display: inline-block;
 }
 
+#header {
+	margin-bottom: 75px;
+	width: 250px;
+}
+
 #title {
 	font-family: 'Courier New', serif;
 	font-size: 18pt;
 	padding-bottom: 10px;
-	line-height: 45px;
 	text-transform: uppercase;
 }
 
@@ -52,17 +66,29 @@ a {
 	color: #ffcc00;
 }
 
-#gifs {
-	margin-top: 24px;
+#project {
+	font-family: 'Courier New', serif;
+	font-size: 11pt;
+	text-transform: uppercase;
 }
 
-img {
-	width: 325px;
+#subtitle {
+	font-family: 'Lato-LightItalic', sans-serif;
+	font-size: 8pt;
+}
+
+.group {
+	margin-bottom: 75px;
+	max-width: 907px;
+}
+
+.gifs {
+	width: 300px;
 }
 
 
 /*-----------------------------------------*/
-/*            Responsive style             */
+/*               Responsive                */
 /*-----------------------------------------*/
 
 @media (max-width: 700px) {
@@ -81,7 +107,7 @@ img {
 		line-height: 38pt;
 	}
 
-	#gifs {
+	.group {
 		text-align: center;
 	}
 
@@ -92,7 +118,7 @@ img {
 
 
 /*-----------------------------------------*/
-/*              Mobile styles              */
+/*                 Mobile                  */
 /*-----------------------------------------*/
 
 @media only screen and (max-device-width: 700px) {
@@ -111,7 +137,7 @@ img {
 		line-height: 38pt;
 	}
 
-	#gifs {
+	.group {
 		text-align: center;
 	}
 
