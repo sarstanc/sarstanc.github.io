@@ -84,8 +84,12 @@ a {
 	max-width: 907px;
 }
 
-.gifplayer {
+#tile {
 	width: 300px;
+}
+
+.gifplayer {
+	max-width: 100%;
 }
 
 #footer {
