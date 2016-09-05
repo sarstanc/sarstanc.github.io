@@ -72,7 +72,6 @@ a {
 #subtitle {
 	font-family: 'Lato', sans-serif;
 	font-size: 10pt;
-	font-weight: 300;
 	font-style: italic;
 }
 
@@ -139,20 +138,29 @@ a {
 		padding-bottom: 25px;
 	}
 
+	#link {
+		padding-bottom: 25px;
+	}
+
 	p {
 		font-size: 26pt;
 		line-height: 38pt;
 	}
 
 	#project {
-		font-size: 18pt;
+		font-size: 20pt;
+	}
+
+	#subtitle {
+		font-size: 20pt;
 	}
 
 	.group {
 		text-align: center;
 	}
 
-	img {
-		width: 70%;
+	#tile {
+		width: 400px;
 	}
+
 }
