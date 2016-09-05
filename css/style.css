@@ -45,7 +45,6 @@ body {
 
 #header {
 	margin-bottom: 75px;
-	width: 250px;
 }
 
 #title {
@@ -53,11 +52,13 @@ body {
 	font-size: 18pt;
 	padding-bottom: 10px;
 	text-transform: uppercase;
+	letter-spacing: 0;
 }
 
 p {
 	font-size: 10pt;
 	line-height: 24px;
+	letter-spacing: .025em;
 }
 
 a {
@@ -68,13 +69,14 @@ a {
 
 #project {
 	font-family: 'Courier New', serif;
-	font-size: 11pt;
+	font-size: 12pt;
 	text-transform: uppercase;
+	letter-spacing: 0;
 }
 
 #subtitle {
 	font-family: 'Lato-LightItalic', sans-serif;
-	font-size: 8pt;
+	font-size: 10pt;
 }
 
 .group {
