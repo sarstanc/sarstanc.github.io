@@ -60,6 +60,7 @@ a {
 
 #title {
 	text-align: left;
+	padding-bottom: 25px;
 }
 
 #project {
@@ -78,6 +79,7 @@ a {
 .group {
 	margin-bottom: 75px;
 	max-width: 907px;
+	text-align: center;
 }
 
 #tile {
@@ -97,7 +99,7 @@ a {
 /*               Responsive                */
 /*-----------------------------------------*/
 
-/*@media (max-width: 700px) {
+@media (max-width: 700px) {
 
 	#wrap {
 		margin: 10%;
@@ -120,14 +122,14 @@ a {
 	img {
 		width: 70%;
 	}
-}*/
+}
 
 
 /*-----------------------------------------*/
 /*                 Mobile                  */
 /*-----------------------------------------*/
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-device-width: 700px) {
 
 	#wrap {
 		margin: 10%;
@@ -147,10 +149,6 @@ a {
 		line-height: 38pt;
 	}
 
-	#title {
-		padding-bottom: 25px;
-	}
-
 	#project {
 		font-size: 26pt;
 		line-height: 26pt;
@@ -158,10 +156,6 @@ a {
 
 	#subtitle {
 		font-size: 26pt;
-	}
-
-	.group {
-		text-align: center;
 	}
 
 	#tile {
