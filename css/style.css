@@ -137,11 +137,15 @@ a {
 
 	#name {
 		font-size: 42pt;
-		padding-bottom: 30px;
+		padding-bottom: 35px;
 	}
 
 	#link {
 		padding-bottom: 25px;
+	}
+
+	#title {
+		padding-bottom: 35px;
 	}
 
 	p {
@@ -150,12 +154,16 @@ a {
 	}
 
 	#project {
-		font-size: 28pt;
+		font-size: 30pt;
 		line-height: 26pt;
 	}
 
 	#subtitle {
 		font-size: 24pt;
+	}
+
+	.group {
+		margin-bottom: 150px;
 	}
 
 	#tile {
