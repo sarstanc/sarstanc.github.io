@@ -99,28 +99,21 @@ a {
 /*               Responsive                */
 /*-----------------------------------------*/
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
 
 	#wrap {
-		margin: 10%;
-	}
-
-	#name {
-		font-size: 34pt;
-		padding-bottom: 25px;
-	}
-
-	p {
-		font-size: 26pt;
-		line-height: 38pt;
+		margin: 100px 5% 5% 5%;
 	}
 
 	.group {
 		text-align: center;
 	}
+}
 
-	img {
-		width: 70%;
+@media (max-width: 700px) {
+
+	#tile {
+		max-width: 100%;
 	}
 }
 
@@ -168,6 +161,10 @@ a {
 
 	#tile {
 		width: 400px;
+	}
+
+	#footer {
+		padding: 0;
 	}
 
 }
