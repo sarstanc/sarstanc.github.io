@@ -136,7 +136,7 @@ a {
 	}
 
 	#name {
-		font-size: 38pt;
+		font-size: 42pt;
 		padding-bottom: 30px;
 	}
 
@@ -145,17 +145,17 @@ a {
 	}
 
 	p {
-		font-size: 26pt;
+		font-size: 24pt;
 		line-height: 38pt;
 	}
 
 	#project {
-		font-size: 26pt;
+		font-size: 28pt;
 		line-height: 26pt;
 	}
 
 	#subtitle {
-		font-size: 26pt;
+		font-size: 24pt;
 	}
 
 	#tile {
