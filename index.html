@@ -8,6 +8,7 @@
 
     <!-- style -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/gifplayer.css">
 
   </head>
 
@@ -28,12 +29,12 @@
           <p id="project">Family Affair</p>
           <p id="subtitle">Everyone in a family of 5+</p>
 
-          <img class="gif" src="img/witch_fingers.png" alt="witch fingers" data-alt="img/witch_fingers.gif">
-          <img class="gif" src="img/hair.png" alt="hair" data-alt="img/hair.gif">
-          <img class="gif" src="img/circus.png" alt="circus act" data-alt="img/circus.gif">
-          <img class="gif" src="img/motocross.png" alt="motocross" data-alt="img/motocross.gif">
-          <img class="gif" src="img/pop_lock.png" alt="pop, lock" data-alt="img/pop_lock.gif">
-          <img class="gif" src="img/belly_rub.png" alt="belly rub" data-alt="img/belly_rub.gif">
+          <img class="gifplayer" src="img/witch_fingers.png" alt="witch">
+          <img class="gifplayer" src="img/hair.png" alt="hair">
+          <img class="gifplayer" src="img/circus.png" alt="circus act">
+          <img class="gifplayer" src="img/motocross.png" alt="motocross" data-alt="img/motocross.gif">
+          <img class="gifplayer" src="img/pop_lock.png" alt="pop, lock" data-alt="img/pop_lock.gif">
+          <img class="gifplayer" src="img/belly_rub.png" alt="belly rub" data-alt="img/belly_rub.gif">
         </div>
 
         <div class="group">
@@ -53,8 +54,13 @@
 
 
     <!-- animation -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.gifplayer.js"></script>
+    <script>
+      $(document).ready( function(){
+        $('.gifplayer').gifplayer();
+      });
+    </script>
 
   </body>
 

@@ -16,6 +16,10 @@ ins.play-gif{
 	text-decoration: none;
 }
 
+ins.play-gif:hover{
+	opacity:.5;
+}
+
 .gifplayer-wrapper{
 	position:relative;
 	display: inline-block;
