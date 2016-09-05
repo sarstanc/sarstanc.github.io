@@ -127,15 +127,15 @@ a {
 /*                 Mobile                  */
 /*-----------------------------------------*/
 
-@media only screen and (max-device-width: 700px) {
+@media only screen and (max-width: 700px) {
 
 	#wrap {
 		margin: 10%;
 	}
 
 	#name {
-		font-size: 36pt;
-		padding-bottom: 25px;
+		font-size: 38pt;
+		padding-bottom: 30px;
 	}
 
 	#link {
@@ -147,12 +147,17 @@ a {
 		line-height: 38pt;
 	}
 
+	#title {
+		padding-bottom: 25px;
+	}
+
 	#project {
-		font-size: 20pt;
+		font-size: 26pt;
+		line-height: 26pt;
 	}
 
 	#subtitle {
-		font-size: 20pt;
+		font-size: 26pt;
 	}
 
 	.group {
