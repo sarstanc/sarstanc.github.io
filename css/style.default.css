@@ -44,18 +44,11 @@ section.background-secondary {
 }
 .section-inverse h1,
 .section-inverse h2,
-.section-inverse h3,
-.section-inverse h4,
-.section-inverse h5,
-.section-inverse h6 {
+.section-inverse h3 {
   color: #fff;
 }
 .section-inverse .heading:after {
   background: #fff;
-}
-.italic {
-  font-style: italic;
-  font-family: "Georgia", "Times New Roman", Times, serif;
 }
 .img-responsive {
   margin: 0 auto;
@@ -87,15 +80,6 @@ section.background-secondary {
 .padding--small {
   padding-top: 30px;
   padding-bottom: 30px;
-}
-.weight-300 {
-  font-weight: 300 !important;
-}
-.weight-500 {
-  font-weight: 500 !important;
-}
-.weight-700 {
-  font-weight: 700 !important;
 }
 .text-gray {
   color: #555555;
@@ -404,9 +388,6 @@ SIDEBAR + RIGHT COLUMN
     padding-left: 40px;
     padding-right: 40px;
   }
-}
-.content-column-content p.lead {
-  color: #555555;
 }
 .content-column-content p,
 .content-column-content li {
@@ -857,18 +838,18 @@ a:active {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.box-masonry h4 {
+.box-masonry h2 {
   font-size: 16px;
   line-height: 1.5;
   font-weight: lighter;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
-.box-masonry h4 a {
+.box-masonry h2 a {
   color: #000;
   border-bottom: solid 1px transparent;
 }
-.box-masonry h4 a:hover {
+.box-masonry h2 a:hover {
   border-bottom: dotted 1px #ffcc00;
   color: #000;
   text-decoration: none;
@@ -895,7 +876,7 @@ a:active {
 .box-masonry .box-masonry-hover-text-header p {
   font-size: 14px;
 }
-.box-masonry .box-masonry-hover-text-header h4 a {
+.box-masonry .box-masonry-hover-text-header h2 a {
   color: #555555;
 }
 .box-masonry .box-masonry-hover-center {
@@ -1154,13 +1135,13 @@ a:active {
   color: #fff;
   text-decoration: none;
 }
-.box-image-text .top .name h4 {
+.box-image-text .top .name h2 {
   color: #fff;
   text-transform: uppercase;
   font-size: 24px;
   letter-spacing: 0.08em;
 }
-.box-image-text .top .name h4 a {
+.box-image-text .top .name h2 a {
   color: #fff;
   text-decoration: none;
 }
@@ -1181,12 +1162,12 @@ a:active {
 .box-image-text .content {
   padding: 15px 15px 0 15px;
 }
-.box-image-text .content h3,
-.box-image-text .content h4 {
+.box-image-text .content h2,
+.box-image-text .content h3 {
   text-transform: uppercase;
   line-height: 1.5;
   color: #555555;
-  font-weight: 800;
+  font-weight: lighter;
   letter-spacing: 0.08em;
 }
 .box-image-text .content p {
@@ -1239,7 +1220,7 @@ STYLE SWITCHER FOR DEMO
   border: solid 1px #cdcdcd;
   z-index: 2000;
 }
-#style-switch h4 {
+#style-switch h2 {
   color: #555555;
 }
 /* ========================================= */
@@ -1960,48 +1941,36 @@ label {
 /* type */
 h1,
 h2,
-h3,
-h4,
-h5,
-h6,
+h3
 .h1,
 .h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+.h3 {
   font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: lighter;
+  font-weight: 300;
   line-height: 1.2;
   color: #000000;
 }
 h1,
 .h1 {
-  font-size: 48px;
+  font-size: 24px;
   font-family: "Courier New", serif;
-  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 h2,
 .h2 {
-  font-size: 38px;
+  font-size: 20px;
+  font-family: "Courier New", serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 h3,
 .h3 {
-  font-size: 32px;
-}
-h4,
-.h4 {
-  font-size: 24px;
-  font-family: "Courier New", serif;
-  font-weight: lighter;
-}
-h5,
-.h5 {
   font-size: 16px;
-}
-h6,
-.h6 {
-  font-size: 14px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
 }
 h1,
 .h1,
@@ -2014,24 +1983,9 @@ h3,
 }
 p {
   margin: 0 0 24px;
-}
-.lead {
-  margin-bottom: 24px;
-  font-size: 18px;
-}
-@media (min-width: 768px) {
-  .lead {
-    font-size: 24px;
-  }
-}
-.text-small {
-  font-size: 14px;
-}
-.text-large {
-  font-size: 20px;
-}
-.text-italic {
-  font-style: italic;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
 }
 .text-primary {
   color: #ffcc00;
