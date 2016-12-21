@@ -256,7 +256,6 @@ NAVBAR
 =====================
 
 */
-
 .navbar-default a {
   font-family: "Lato";
   text-transform: uppercase;
@@ -270,12 +269,6 @@ NAVBAR
 .navbar-default a:hover{
   border-bottom: 2px solid #ffcc00;
 }
-
-.navbar-brand a {
-  color: black;
-  font-family: "Courier New";
-}
-
 
 
 
@@ -935,36 +928,7 @@ a:active {
   -ms-transform: translate(0, 100%);
   transform: translate(0, 100%);
 }
-/*
 
-=====================
-STYLE SWITCHER FOR DEMO
-=====================
-
-*/
-#style-switch-button {
-  position: fixed;
-  bottom: 200px;
-  left: 0px;
-  border-radius: 0;
-  z-index: 2;
-}
-#style-switch {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 300px;
-  padding: 20px;
-  position: fixed;
-  bottom: 240px;
-  left: 0;
-  background: #fff;
-  border: solid 1px #cdcdcd;
-  z-index: 2000;
-}
-#style-switch h2 {
-  color: #555555;
-}
 /* ========================================= */
 /* THEMING OF BOOTSTRAP COMPONENTS           */
 /* ========================================= */
@@ -1332,11 +1296,11 @@ STYLE SWITCHER FOR DEMO
 }
 /* scaffolding */
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
   line-height: 1.55;
   color: #000000;
-  background-color: #f4f4f4;
 }
 a {
   color: #ffcc00;
@@ -1344,7 +1308,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #e01557;
+  color: #ffcc00;
   text-decoration: underline;
 }
 a:focus {
@@ -1408,8 +1372,7 @@ hr {
 }
 /* buttons  */
 .btn {
-  font-weight: 400;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   padding: 6px 12px;
   font-size: 16px;
   line-height: 1.55;
@@ -1528,7 +1491,7 @@ fieldset[disabled] .btn-transparent.active {
 }
 /* labels */
 .label {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -1582,7 +1545,7 @@ label {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 14px;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
 .pager li {
@@ -1611,7 +1574,7 @@ label {
 /* pagination */
 .pagination {
   margin: 24px 0;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   border-radius: 0;
 }
 .pagination > li > a,
