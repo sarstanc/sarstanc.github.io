@@ -21,35 +21,6 @@ body {
 header {
   z-index: 1000;
 }
-section {
-  position: relative;
-  padding-top: 90px;
-  padding-bottom: 90px;
-}
-section.background-gray-lighter {
-  background: #cdcdcd;
-}
-section.background-gray-lightest {
-  background: #f7f7f7;
-  border-top: solid 1px #cdcdcd;
-  border-bottom: solid 1px #cdcdcd;
-}
-section.background-secondary {
-  background: #60c5ba;
-  border-top: solid 1px #338c82;
-  border-bottom: solid 1px #338c82;
-}
-.section-inverse {
-  color: #fff;
-}
-.section-inverse h1,
-.section-inverse h2,
-.section-inverse h3 {
-  color: #fff;
-}
-.section-inverse .heading:after {
-  background: #fff;
-}
 .img-responsive {
   margin: 0 auto;
 }
@@ -80,15 +51,6 @@ section.background-secondary {
 .padding--small {
   padding-top: 30px;
   padding-bottom: 30px;
-}
-.text-gray {
-  color: #555555;
-}
-.text-gray-light {
-  color: #999999;
-}
-.text-gray-lighter {
-  color: #cdcdcd;
 }
 @media (max-width: 991px) {
   .text-center-mobile {
@@ -307,6 +269,7 @@ SIDEBAR + RIGHT COLUMN
 */
 #sidebar {
   padding-top: 40px;
+  font-size: 14px;
 }
 @media screen and (min-width: 992px) {
   .sidebar-content {
@@ -333,7 +296,6 @@ SIDEBAR + RIGHT COLUMN
   text-decoration: none;
 }
 .sidebar-p {
-  color: #999999;
   font-size: 14px;
 }
 .sidebar-menu {
@@ -343,15 +305,16 @@ SIDEBAR + RIGHT COLUMN
 }
 .sidebar-menu li {
   margin-bottom: 5px;
+  text-transform: uppercase;
 }
 .sidebar-menu li a {
-  color: #555555;
+  color: #000;
 }
 .sidebar-menu li:before {
   font-family: 'FontAwesome';
   content: '\f105';
   margin: 0 5px 0 -15px;
-  color: #999999;
+  color: #000;
 }
 .sidebar-menu li.active a {
   color: #ffcc00;
@@ -518,27 +481,6 @@ SERVICES / INTEGRATIONS
 /*
 
 =====================
-CUSTOMERS
-=====================
-
-*/
-.customer {
-  text-align: center;
-}
-.customer img {
-  display: inline-block;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-.customer img:hover {
-  -webkit-filter: grayscale(0);
-  filter: grayscale(0);
-}
-/*
-
-=====================
 SIGN UP FORM
 =====================
 
@@ -648,10 +590,10 @@ COPYRIGHT
 */
 .copyright {
   color: #999999;
-  font-size: 13px;
 }
 .copyright p.credit {
   margin-bottom: 10px;
+  font-size: 11px;
 }
 .copyright p.credit a {
   color: #999999;
@@ -964,7 +906,6 @@ a:active {
   font-size: 24px;
   line-height: 1.5;
   color: #555555;
-  font-weight: 400;
 }
 .box-simple h3 a {
   color: #555555;
