@@ -547,18 +547,6 @@ p.social a i {
 p.social.social--outline a {
   background: transparent;
 }
-p.social.social--outline a.facebook {
-  color: #4460ae;
-  border-color: #4460ae;
-}
-p.social.social--outline a.gplus {
-  color: #c21f25;
-  border-color: #c21f25;
-}
-p.social.social--outline a.twitter {
-  color: #3cf;
-  border-color: #3cf;
-}
 p.social.social--outline a.instagram {
   color: #cd4378;
   border-color: #cd4378;
