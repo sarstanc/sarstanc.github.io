@@ -248,18 +248,37 @@ fieldset[disabled] .btn-white.active {
   margin: 0 auto 30px;
   text-align: center;
 }
-.icon.brand-secondary {
-  border-color: #60c5ba;
-  color: #60c5ba;
+
+/*
+
+=====================
+NAVBAR
+=====================
+
+*/
+
+.navbar-default a {
+  font-family: "Lato";
+  text-transform: uppercase;
 }
-.icon.brand-terciary {
-  border-color: #008c9e;
-  color: #008c9e;
+
+.navbar-default .navbar-nav .active a {
+  color: #ffcc00;
+  border-bottom: 2px solid #ffcc00;
 }
-.icon.brand-four {
-  border-color: #feee7d;
-  color: #feee7d;
+
+.navbar-default a:hover{
+  border-bottom: 2px solid #ffcc00;
 }
+
+.navbar-brand a {
+  color: black;
+  font-family: "Courier New";
+}
+
+
+
+
 /*
 
 =====================
@@ -1021,8 +1040,9 @@ STYLE SWITCHER FOR DEMO
   }
 }
 /* navbar */
+/*
 .navbar {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   min-height: 80px;
   margin-bottom: 0;
   border-top: none;
@@ -1099,6 +1119,7 @@ STYLE SWITCHER FOR DEMO
 .navbar-brand:focus {
   text-decoration: none;
 }
+
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
@@ -1270,6 +1291,8 @@ STYLE SWITCHER FOR DEMO
 .navbar-default .navbar-link:hover {
   color: #f381a6;
 }
+*/
+
 /* dropdowns */
 .dropdown-menu {
   z-index: 1000;
