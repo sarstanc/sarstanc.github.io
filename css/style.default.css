@@ -620,14 +620,9 @@ a:active {
 }
 .navbar-brand {
   float: left;
+  margin-top: 25px;
   padding: 10px 15px;
-  font-size: 20px;
-  line-height: 24px;
   height: 80px;
-}
-.navbar-brand:hover,
-.navbar-brand:focus {
-  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -660,6 +655,9 @@ a:active {
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
+  }
+  .navbar-brand { 
+    margin-top: 6px;
   }
 }
 @media (min-width: 768px) {
