@@ -916,7 +916,7 @@ hr {
 /* responsive utilities */
 @media (min-width: 992px) {
   .grid {
-    background: orange;
+    
   }
 }
 
