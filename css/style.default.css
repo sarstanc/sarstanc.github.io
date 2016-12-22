@@ -21,7 +21,8 @@ body {
 header {
   z-index: 1000;
 }
-.intro-center {
+
+.page-top {
   margin: 100px;
 }
 .img-responsive {
@@ -210,10 +211,12 @@ a:active {
 .ekko-lightbox .modal-footer {
   text-align: left;
 }
+
 .grid {
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
+
 .box-masonry {
   margin-bottom: 30px;
   position: relative;
@@ -575,77 +578,6 @@ a:active {
 /* ========================================= */
 /* THEMING OF BOOTSTRAP COMPONENTS           */
 /* ========================================= */
-/* nav */
-.nav {
-  margin-bottom: 0;
-  padding-left: 0;
-  list-style: none;
-}
-.nav > li > a {
-  padding: 10px 15px;
-}
-.nav > li > a:hover,
-.nav > li > a:focus {
-  background-color: #cdcdcd;
-}
-.nav > li.disabled > a {
-  color: #999999;
-}
-.nav > li.disabled > a:hover,
-.nav > li.disabled > a:focus {
-  color: #999999;
-}
-.nav .open > a,
-.nav .open > a:hover,
-.nav .open > a:focus {
-  background-color: #cdcdcd;
-  border-color: #ffcc00;
-}
-.nav-tabs {
-  border-bottom: 1px solid #dddddd;
-}
-.nav-tabs > li > a {
-  line-height: 1.55;
-  border-radius: 0 0 0 0;
-}
-.nav-tabs > li > a:hover {
-  border-color: #cdcdcd #cdcdcd #dddddd;
-}
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
-  color: #555555;
-  background-color: #f4f4f4;
-  border: 1px solid #dddddd;
-}
-.nav-pills > li > a {
-  border-radius: 0;
-}
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
-  color: #ffffff;
-  background-color: #ffcc00;
-}
-.nav-tabs-justified > li > a {
-  border-radius: 0;
-}
-.nav-tabs-justified > .active > a,
-.nav-tabs-justified > .active > a:hover,
-.nav-tabs-justified > .active > a:focus {
-  border: 1px solid #dddddd;
-}
-@media (min-width: 768px) {
-  .nav-tabs-justified > li > a {
-    border-bottom: 1px solid #dddddd;
-    border-radius: 0 0 0 0;
-  }
-  .nav-tabs-justified > .active > a,
-  .nav-tabs-justified > .active > a:hover,
-  .nav-tabs-justified > .active > a:focus {
-    border-bottom-color: #f4f4f4;
-  }
-}
 
 /* navbar */
 
@@ -658,11 +590,7 @@ a:active {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  .navbar-collapse {
-    font-size: 14px;
-  }
-}
+
 @media (min-width: 768px) {
   .navbar-collapse {
     width: auto;
@@ -806,7 +734,7 @@ a:active {
   }
 }
 
-/* Important */
+/* important */
 .navbar-default {
   background-color: transparent;
   border-bottom-color: transparent;
@@ -899,6 +827,7 @@ a:active {
   color: #ffffff;
   background-color: #ffcc00;
 }
+
 /* modal */
 .modal-content {
   background-color: #ffffff;
@@ -906,6 +835,7 @@ a:active {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0;
 }
+
 /* scaffolding */
 body {
   font-family: "Lato", sans-serif;
@@ -958,6 +888,7 @@ hr {
   -webkit-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
+
 /* breadcrumbs */
 .breadcrumb {
   padding: 8px 0;
@@ -1006,6 +937,10 @@ hr {
     margin-left: auto;
     margin-right: auto;
   }
+  .grid {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .text-center-sm {
@@ -1017,6 +952,7 @@ hr {
     margin-right: auto;
   }
 }
+
 /* type */
 h1,
 h2,
