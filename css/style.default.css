@@ -919,6 +919,9 @@ hr {
 }
 
 @media (max-width: 767px) {
+  .page-top {
+    margin: 100px 50px 50px 50px;
+  }
   .text-center-xs {
     text-align: center !important;
   }
