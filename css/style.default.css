@@ -744,6 +744,7 @@ a:active {
 }
 .navbar-default .navbar-collapse {
   border-color: transparent;
+  background: #ffffff;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
