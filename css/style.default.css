@@ -744,7 +744,6 @@ a:active {
 }
 .navbar-default .navbar-collapse {
   border-color: transparent;
-  background: #ffffff;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -753,6 +752,9 @@ a:active {
   color: #ffcc00;
 }
 @media (max-width: 767px) {
+  .navbar-default .navbar-collapse {
+  background: #ffffff;
+  }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #ffcc00;
   }
