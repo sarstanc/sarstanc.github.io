@@ -236,7 +236,7 @@ BOX-MASONRY
   content: '\f105';
   text-align: center;
   font-size: 50px;
-  color: #555555;
+  color: #000;
 }
 .box-masonry .box-masonry-image:hover {
   text-decoration: none;
