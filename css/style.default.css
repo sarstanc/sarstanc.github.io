@@ -124,35 +124,6 @@ NAVBAR
   border-bottom: 2px solid #ffcc00;
 }
 
-
-/*
-
-=====================
-COPYRIGHT
-=====================
-
-*/
-.copyright {
-  color: #999999;
-}
-.copyright p.credit {
-  margin-bottom: 10px;
-  font-size: 11px;
-}
-.copyright p.credit a {
-  color: #999999;
-}
-@media (max-width: 991px) {
-  .copyright p.credit {
-    text-align: center !important;
-  }
-}
-@media (max-width: 991px) {
-  .copyright {
-    text-align: center !important;
-  }
-}
-
 /*
 
 =====================
