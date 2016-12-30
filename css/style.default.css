@@ -479,6 +479,18 @@ BOX-MASONRY
   transform: translate(0, 100%);
 }
 
+/*
+
+=====================
+DETAIL PAGE
+=====================
+
+*/
+.detail-page {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
 /* ========================================= */
 /* THEMING OF BOOTSTRAP COMPONENTS           */
 /* ========================================= */
@@ -786,12 +798,6 @@ hr {
 /* pagination */
 
 /* responsive utilities */
-@media (min-width: 992px) {
-  .grid {
-    
-  }
-}
-
 @media (max-width: 767px) {
   .page-top {
     margin: 100px 50px 50px 50px;
