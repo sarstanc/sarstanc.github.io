@@ -28,6 +28,9 @@ header {
 .img-responsive {
   margin: 0 auto;
 }
+.img-detail {
+  margin-bottom: 5%;
+}
 .no-space .box {
   margin: 0 -15px;
 }
