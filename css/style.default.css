@@ -23,7 +23,7 @@ header {
 }
 
 .page-top {
-  margin: 100px;
+  margin: 100px 50px 100px 50px;
 }
 .img-responsive {
   margin: 0 auto;
@@ -104,6 +104,10 @@ button i.fa {
   font-size: 30px;
   margin: 0 auto 30px;
   text-align: center;
+}
+
+footer {
+  margin-bottom: 50px;
 }
 
 /*
