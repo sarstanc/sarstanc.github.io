@@ -480,28 +480,22 @@ BOOTSTRAP COMPONENTS
 /*
 
 /* navbar */
-
 .navbar-default a {
   font-family: "Lato";
   text-transform: uppercase;
 }
-
 .navbar-default .navbar-nav .active a {
   color: #ffcc00;
   border-bottom: 2px solid #ffcc00;
 }
-
 .navbar-default a:hover{
   border-bottom: 2px solid #ffcc00;
 }
-
 .navbar-collapse.in {
   overflow-y: auto;
 }
 .container > .navbar-header,
-.container-fluid > .navbar-header,
-.container > .navbar-collapse,
-.container-fluid > .navbar-collapse {
+.container > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -511,11 +505,6 @@ BOOTSTRAP COMPONENTS
   padding: 10px 15px;
   height: 80px;
 }
-.navbar-toggle {
-  padding: 9px 10px !important;
-  margin-right: 15px;
-  border-radius: 0;
-}
 .navbar-nav {
   margin: 14px -15px;
 }
@@ -524,39 +513,11 @@ BOOTSTRAP COMPONENTS
     margin-top: 6px;
   }
 }
-.navbar-form {
-  margin-left: -15px;
-  margin-right: -15px;
-  padding: 10px 15px;
-  border: none;
-  margin-top: 21px;
-  margin-bottom: 21px;
-}
-.navbar-form .form-group {
-  margin-bottom: 5px;
-}
-.navbar-btn {
-  margin-top: 21px;
-  margin-bottom: 21px;
-}
-.navbar-btn.btn-sm {
-  margin-top: 23.5px;
-  margin-bottom: 23.5px;
-}
-.navbar-btn.btn-xs {
-  margin-top: 29px;
-  margin-bottom: 29px;
-}
-.navbar-text {
-  margin-top: 28px;
-  margin-bottom: 28px;
-}
-
-/* important */
 .navbar-default {
   background-color: transparent;
   border-bottom-color: transparent;
 }
+/* no border on navbar btn */
 .navbar-default .navbar-toggle {
   border-color: transparent;
 }
@@ -567,28 +528,17 @@ BOOTSTRAP COMPONENTS
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ffcc00;
 }
+/* black menu icon on hover */
+.navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: black;
+}
 .navbar-default .navbar-collapse {
   border-color: transparent;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  background-color: transparent;
-  color: #ffcc00;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-collapse {
   background: rgba(255, 255, 255, 0.85);
   }
-}
-
-.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-  color: #ffcc00;
-}
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-  color: #ffcc00;
-  background-color: transparent;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
@@ -596,14 +546,12 @@ BOOTSTRAP COMPONENTS
   color: #ffcc00;
   background-color: transparent;
 }
-
 .navbar-default .navbar-link {
   color: #ffcc00;
 }
 .navbar-default .navbar-link:hover {
   color: #ffcc00;
 }
-*/
 
 /* dropdowns */
 .dropdown-menu {
