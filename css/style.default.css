@@ -534,6 +534,9 @@ BOOTSTRAP COMPONENTS
   padding: 10px 15px;
   height: 80px;
 }
+.navbar-header .navbar-brand {
+  color: #ffcc00;
+}
 .navbar-nav {
   margin: 14px -15px;
 }
