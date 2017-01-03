@@ -504,18 +504,18 @@ BOOTSTRAP COMPONENTS
 }
 .navbar-collapse.collapse.in {
   display: block !important;
-}
-/* menu bg */
-.navbar-default .navbar-collapse {
-  border-color: transparent;
-  background-color: rgba(255, 204, 0, 0.85);
-  /* background: url(../img/pattern_mustard_outlines.png); */
   width: 100%;
   height: 100%;
   text-align: center;
   top: 0;
   bottom: 0;
   margin: auto;
+}
+/* menu bg */
+.navbar-default .navbar-collapse {
+  border-color: transparent;
+  background-color: rgba(255, 204, 0, 0.85);
+  /* background: url(../img/pattern_mustard_outlines.png); */
 }
 .navbar-default a {
   font-family: "Lato";
