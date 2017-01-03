@@ -569,13 +569,10 @@ BOOTSTRAP COMPONENTS
 .navbar-default .navbar-toggle:hover .icon-bar {
   background-color: black;
 }
+/* menu bg */
 .navbar-default .navbar-collapse {
   border-color: transparent;
-}
-@media (max-width: 767px) {
-  .navbar-default .navbar-collapse {
   background: rgba(255, 255, 255, 0.85);
-  }
 }
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
