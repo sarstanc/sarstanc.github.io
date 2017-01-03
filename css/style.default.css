@@ -504,19 +504,18 @@ BOOTSTRAP COMPONENTS
 }
 .navbar-collapse.collapse.in {
   display: block !important;
-  width: 100%;
-  height: 500px;
-  text-align: center;
-  top: 0;
-  bottom: 0;
-  margin: auto;
 }
 /* menu bg */
 .navbar-default .navbar-collapse {
   border-color: transparent;
-  /* background: rgba(255, 255, 255, 0.85); */
-  background: url(../img/pattern_mustard.png);
-  
+  background-color: rgba(255, 204, 0, 0.85);
+  /* background: url(../img/pattern_mustard_outlines.png); */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 .navbar-default a {
   font-family: "Lato";
@@ -524,11 +523,10 @@ BOOTSTRAP COMPONENTS
 }
 /* menu items */
 .navbar-default .navbar-nav li a {
-  color: #ffcc00;
+  color: #000000;
   text-align: center;
 }
 .navbar-default .navbar-nav .active a {
-  color: #ffcc00;
   border-bottom: 2px solid #ffcc00;
 }
 .navbar-default a:hover{
