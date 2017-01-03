@@ -513,6 +513,11 @@ BOOTSTRAP COMPONENTS
   font-family: "Lato";
   text-transform: uppercase;
 }
+/* menu items */
+.navbar-default .navbar-nav li a {
+  color: #ffcc00;
+  text-align: center;
+}
 .navbar-default .navbar-nav .active a {
   color: #ffcc00;
   border-bottom: 2px solid #ffcc00;
@@ -573,12 +578,6 @@ BOOTSTRAP COMPONENTS
 .navbar-default .navbar-collapse {
   border-color: transparent;
   background: rgba(255, 255, 255, 0.85);
-}
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-  color: #ffcc00;
-  background-color: transparent;
 }
 .navbar-default .navbar-link {
   color: #ffcc00;
