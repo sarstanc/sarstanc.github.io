@@ -118,7 +118,7 @@ BOX-MASONRY
 .box-masonry {
   margin-bottom: 30px;
   position: relative;
-  border: 1px solid #dcdcdc;
+  /*border: 1px solid #dcdcdc;*/
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -587,14 +587,6 @@ BOOTSTRAP COMPONENTS
 }
 .navbar-default .navbar-link:hover {
   color: #ffcc00;
-}
-
-/* modal */
-.modal-content {
-  background-color: #ffffff;
-  border: 1px solid #999999;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0;
 }
 
 /* scaffolding */
