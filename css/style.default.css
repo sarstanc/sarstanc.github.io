@@ -568,9 +568,10 @@ modified from http://codepen.io/PaulVanO/pen/XJYGNQ
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  font-size: 50px;
-  font-family: 'Vollkorn', serif;
-  font-weight: 400;
+  font-size: 24px;
+  font-family: "Courier New", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   text-align: center;
 }
 .overlay ul {
