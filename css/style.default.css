@@ -681,6 +681,10 @@ hr {
     margin-left: -15px;
     margin-right: -15px;
   }
+  .col-lg-10 {
+    margin-left: -65px;
+    margin-right: -65px;
+  }
   footer {
     margin-left: -60px;
   }
