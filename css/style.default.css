@@ -104,6 +104,35 @@ footer {
 /*
 
 =====================
+GIF ANIMATION
+=====================
+
+*/
+#ghostbusted {
+  background-image: url(../img/portfolio/ghostbusted.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 315px;
+  margin: 0 auto;
+  animation: giffy 0.5s infinite steps(1);
+    animation-play-state: running;
+}
+#ghostbusted:hover {
+  animation-play-state: paused;
+}
+@keyframes giffy {
+  0%   { background-image: url(../img/portfolio/ghostbusted.gif); }
+  45%  { background-image: url(../img/portfolio/ghostbusted.gif); }
+  60%  { background-image: url('http://i.imgur.com/ZmQBrQ5.gif'); }
+  75%  { background-image: url('http://i.imgur.com/iAsfHyY.gif'); }
+  100% { background-image: url(../img/portfolio/ghostbusted.gif); }
+}
+
+
+/*
+
+=====================
 BOX-MASONRY
 =====================
 
