@@ -108,13 +108,17 @@ GIF ANIMATION
 =====================
 
 */
+
+/* modified from http://jsfiddle.net/m87SY/67/ */
 #ghostbusted {
-  background-image: url(../img/portfolio/ghostbusted.gif);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: contain;
   width: 100%;
-  height: 315px;
+  height: 0;
+  /* suggested by stackoverflow user hasanavi */
+  /* http://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size */
+  padding-top: 100%; /* (img-height / img-width * container-width) */
   margin: 0 auto;
   animation: giffy 3.0s infinite steps(1);
     animation-play-state: running;
@@ -122,10 +126,13 @@ GIF ANIMATION
 #ghostbusted:hover {
   animation-play-state: paused;
 }
+#ghostbusted:active {
+  animation-play-state: paused;
+}
 @keyframes giffy {
   0%   { background-image: url(../img/animation/ghostbusted1.png); }
-  40%  { background-image: url(../img/animation/ghostbusted2.png); }
-  70% { background-image: url(../img/animation/ghostbusted3.png); }
+  33%  { background-image: url(../img/animation/ghostbusted2.png); }
+  66% { background-image: url(../img/animation/ghostbusted3.png); }
 }
 
 
@@ -147,6 +154,8 @@ BOX-MASONRY
   /*border: 1px solid #dcdcdc;*/
   overflow: hidden;
   text-overflow: ellipsis;
+  height: 100%;
+  background-size: 100%;
 }
 .box-masonry h2 {
   font-size: 16px;
@@ -208,7 +217,8 @@ BOX-MASONRY
 .box-masonry .box-masonry-image {
   display: block;
   position: relative;
-  min-height: 100px;
+  min-height: 200px;
+  height: 100%;
 }
 .box-masonry .box-masonry-image.with-hover-overlay:before {
   display: block;
