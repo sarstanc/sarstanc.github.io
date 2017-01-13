@@ -110,7 +110,7 @@ GIF ANIMATION
 */
 
 /* modified from http://jsfiddle.net/m87SY/67/ */
-#ghostbusted {
+#ghostbusted, #belly_rub {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -120,16 +120,28 @@ GIF ANIMATION
   /* http://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size */
   padding-top: 100%; /* (img-height / img-width * container-width) */
   margin: 0 auto;
-  animation: giffy 3.0s infinite steps(1);
+}
+#ghostbusted {
+  animation: ghost 3.0s infinite steps(1);
     animation-play-state: running;
 }
-#ghostbusted:hover, #ghostbusted:active, #ghostbusted:focus, #ghostbusted:focus:after {
+#belly_rub {
+  animation: belly 3.0s infinite steps(1);
+    animation-play-state: running;
+}
+#ghostbusted:hover, #ghostbusted:active, #ghostbusted:focus, #ghostbusted:focus:after,
+#belly_rub:hover, #belly_rub:active, #belly_rub:focus, #belly_rub:focus:after {
   animation-play-state: paused;
 }
-@keyframes giffy {
+@keyframes ghost {
   0%   { background-image: url(../img/animation/ghostbusted1.png); }
   33%  { background-image: url(../img/animation/ghostbusted2.png); }
   66% { background-image: url(../img/animation/ghostbusted3.png); }
+}
+@keyframes belly {
+  0%   { background-image: url(../img/animation/belly_rub1.png); }
+  33%  { background-image: url(../img/animation/belly_rub2.png); }
+  66% { background-image: url(../img/animation/belly_rub3.png); }
 }
 
 
@@ -218,7 +230,8 @@ BOX-MASONRY
   height: 100%;
 }
 .box-masonry .box-masonry-image.with-hover-overlay:before,
-.box-masonry .box-masonry-image.with-hover-overlay:focus {
+.box-masonry .box-masonry-image.with-hover-overlay:focus,
+.box-masonry .box-masonry-image.with-hover-overlay.active {
   display: block;
   position: absolute;
   content: " ";
@@ -233,7 +246,8 @@ BOX-MASONRY
   transition: all 0.2s ease-out;
 }
 .box-masonry .box-masonry-image.with-hover-icon:after,
-.box-masonry .box-masonry-image.with-hover-icon:focus {
+.box-masonry .box-masonry-image.with-hover-icon:focus,
+.box-masonry .box-masonry-image.with-hover-icon.active {
   display: block;
   position: absolute;
   width: 100%;
