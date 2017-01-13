@@ -1,4 +1,4 @@
 $('#toggle').click(function() {
-   $(this).toggleClass('active');
-   $('#overlay').toggleClass('open');
-  });
+	$(this).toggleClass('active');
+	$('#overlay').toggleClass('open');
+});
