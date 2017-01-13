@@ -217,7 +217,8 @@ BOX-MASONRY
   min-height: 200px;
   height: 100%;
 }
-.box-masonry .box-masonry-image.with-hover-overlay:before {
+.box-masonry .box-masonry-image.with-hover-overlay:before,
+.box-masonry .box-masonry-image.with-hover-overlay:focus {
   display: block;
   position: absolute;
   content: " ";
@@ -231,7 +232,8 @@ BOX-MASONRY
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-.box-masonry .box-masonry-image.with-hover-icon:after {
+.box-masonry .box-masonry-image.with-hover-icon:after,
+.box-masonry .box-masonry-image.with-hover-icon:focus {
   display: block;
   position: absolute;
   width: 100%;
