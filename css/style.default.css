@@ -123,7 +123,7 @@ GIF ANIMATION
   animation: giffy 3.0s infinite steps(1);
     animation-play-state: running;
 }
-#ghostbusted:hover, #ghostbusted:active, #ghostbusted:focus {
+#ghostbusted:hover, #ghostbusted:active, #ghostbusted:focus, #ghostbusted:focus:after {
   animation-play-state: paused;
 }
 @keyframes giffy {
