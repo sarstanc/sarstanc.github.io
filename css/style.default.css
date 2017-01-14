@@ -143,7 +143,7 @@ GIF ANIMATION
   33%  { background-image: url(../img/animation/belly_rub2.png); }
   66% { background-image: url(../img/animation/belly_rub3.png); }
 }
-.hover_mobile {
+.hover {
   -webkit-user-select: none;
   -webkit-touch-callout: none;
 }

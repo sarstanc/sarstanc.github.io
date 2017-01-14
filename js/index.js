@@ -4,7 +4,7 @@ $('#toggle').click(function() {
 });
 
 $(document).ready(function() {
-    $('.hover_mobile').bind('touchstart touchend', function(e) {
+    $('.hover').bind('touchstart touchend', function(e) {
         e.preventDefault();
         $(this).toggleClass('hover_effect');
     });
