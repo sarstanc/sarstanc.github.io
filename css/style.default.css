@@ -110,7 +110,7 @@ GIF ANIMATION
 */
 
 /* modified from http://jsfiddle.net/m87SY/67/ */
-#ghostbusted, #belly_rub {
+#ghostbusted, #belly_rub, #pop_lock, #witch_fingers {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -129,8 +129,18 @@ GIF ANIMATION
   animation: belly 3.0s infinite steps(1);
     animation-play-state: running;
 }
+#pop_lock {
+  animation: pop 3.0s infinite steps(1);
+    animation-play-state: running;
+}
+#witch_fingers {
+  animation: witch 3.0s infinite steps(1);
+    animation-play-state: running;
+}
 #ghostbusted:hover, #ghostbusted.hover_effect,
-#belly_rub:hover, #belly_rub:active, #belly_rub:focus, #belly_rub:focus:after {
+#belly_rub:hover, #belly_rub:active, #belly_rub:focus, #belly_rub:focus:after,
+#pop_lock:hover,
+#witch_fingers:hover {
   animation-play-state: paused;
 }
 @keyframes ghost {
@@ -142,6 +152,16 @@ GIF ANIMATION
   0%   { background-image: url(../img/animation/belly_rub1.png); }
   33%  { background-image: url(../img/animation/belly_rub2.png); }
   66% { background-image: url(../img/animation/belly_rub3.png); }
+}
+@keyframes pop {
+  0%   { background-image: url(../img/animation/pop_lock1.png); }
+  33%  { background-image: url(../img/animation/pop_lock2.png); }
+  66% { background-image: url(../img/animation/pop_lock3.png); }
+}
+@keyframes witch {
+  0%   { background-image: url(../img/animation/witch_fingers1.png); }
+  33%  { background-image: url(../img/animation/witch_fingers2.png); }
+  66% { background-image: url(../img/animation/witch_fingers3.png); }
 }
 .hover {
   -webkit-user-select: none;
