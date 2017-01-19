@@ -110,7 +110,7 @@ GIF ANIMATION
 */
 
 /* modified from http://jsfiddle.net/m87SY/67/ */
-#ghostbusted, #belly_rub, #pop_lock, #witch_fingers {
+#ghostbusted, #belly_rub, #pop_lock, #witch_fingers, #circus_act {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -137,10 +137,15 @@ GIF ANIMATION
   animation: witch 3.0s infinite steps(1);
     animation-play-state: running;
 }
+#circus_act {
+  animation: circus 3.0s infinite steps(1);
+    animation-play-state: running;
+}
 #ghostbusted:hover, #ghostbusted.hover_effect,
 #belly_rub:hover, #belly_rub:active, #belly_rub:focus, #belly_rub:focus:after,
 #pop_lock:hover,
-#witch_fingers:hover {
+#witch_fingers:hover,
+#circus_act:hover {
   animation-play-state: paused;
 }
 @keyframes ghost {
@@ -162,6 +167,11 @@ GIF ANIMATION
   0%   { background-image: url(../img/animation/witch_fingers1.png); }
   33%  { background-image: url(../img/animation/witch_fingers2.png); }
   66% { background-image: url(../img/animation/witch_fingers3.png); }
+}
+@keyframes circus {
+  0%   { background-image: url(../img/animation/circus_act1.png); }
+  33%  { background-image: url(../img/animation/circus_act2.png); }
+  66% { background-image: url(../img/animation/circus_act3.png); }
 }
 .hover {
   -webkit-user-select: none;
