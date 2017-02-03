@@ -9,7 +9,6 @@ html,
 body {
   /* Prevent scroll on narrow devices */
   overflow-x: hidden;
-  background: url(../img/pattern_tile.png);
 }
 header {
   z-index: 1000;
