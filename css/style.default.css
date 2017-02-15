@@ -575,8 +575,8 @@ NAVBAR
   opacity: .7;
 }
 .button_container.active .top {
-  -webkit-transform: translateY(8px) translateX(0) rotate(45deg);
-          transform: translateY(8px) translateX(0) rotate(45deg);
+  -webkit-transform: translateY(7px) translateX(0) rotate(45deg);
+          transform: translateY(7px) translateX(0) rotate(45deg);
   background: #FFF;
 }
 .button_container.active .middle {
@@ -584,8 +584,8 @@ NAVBAR
   background: #FFF;
 }
 .button_container.active .bottom {
-  -webkit-transform: translateY(-8px) translateX(0) rotate(-45deg);
-          transform: translateY(-8px) translateX(0) rotate(-45deg);
+  -webkit-transform: translateY(-7px) translateX(0) rotate(-45deg);
+          transform: translateY(-7px) translateX(0) rotate(-45deg);
   background: #FFF;
 }
 .button_container span {
@@ -646,8 +646,8 @@ NAVBAR
 }
 .overlay nav {
   position: relative;
-  height: 50%; /* vertical spacing between menu items */
-  top: 45%;
+  height: 40%; /* vertical spacing between menu items */
+  top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   font-size: 24px;
