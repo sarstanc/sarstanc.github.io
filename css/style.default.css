@@ -186,14 +186,13 @@ BOX-MASONRY
 
 */
 .grid {
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 90px;
+  margin-left: 90px;
 }
 
 .box-masonry {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   position: relative;
-  /*border: 1px solid #dcdcdc;*/
   overflow: hidden;
   text-overflow: ellipsis;
   height: 100%;
@@ -561,8 +560,8 @@ NAVBAR
 /* modified from http://codepen.io/PaulVanO/pen/XJYGNQ */
 .button_container {
   position: fixed;
-  top: 4%;
-  right: 5%;
+  top: 10.45%;
+  right: 12%;
   height: 27px;
   width: 35px;
   cursor: pointer;
@@ -590,8 +589,8 @@ NAVBAR
 .button_container span {
   background: #ffcc00;
   border: none;
-  height: 3px;
-  width: 80%;
+  height: 2px;
+  width: 75%;
   position: absolute;
   top: 0;
   left: 0;
@@ -600,10 +599,10 @@ NAVBAR
   cursor: pointer;
 }
 .button_container span:nth-of-type(2) {
-  top: 8px;
+  top: 7px;
 }
 .button_container span:nth-of-type(3) {
-  top: 16px;
+  top: 14px;
 }
 
 .overlay {
@@ -645,8 +644,8 @@ NAVBAR
 }
 .overlay nav {
   position: relative;
-  height: 70%;
-  top: 50%;
+  height: 50%; /* vertical spacing between menu items */
+  top: 45%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   font-size: 24px;
