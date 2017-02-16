@@ -14,9 +14,6 @@ header {
   z-index: 1000;
 }
 
-.page-top {
-  margin: 100px 70px 100px 70px;
-}
 .img-responsive {
   margin: 0 auto;
 }
@@ -188,6 +185,7 @@ BOX-MASONRY
 
 */
 .grid {
+  margin-top: 100px;
   margin-right: 90px;
   margin-left: 90px;
 }
@@ -562,8 +560,9 @@ NAVBAR
 /* modified from http://codepen.io/PaulVanO/pen/XJYGNQ */
 .button_container {
   position: fixed;
-  top: 10.45%;
-  right: 12%;
+  top: 100px;
+  margin-left: 1015px;
+  /*right: 12%;*/
   height: 27px;
   width: 35px;
   cursor: pointer;
@@ -795,6 +794,29 @@ hr {
 .breadcrumb a {
   color: #ffcc00;
 }
+
+
+/* responsive utilities */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .button_container {
+    margin-left: 816px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .text-center-sm {
+    text-align: center !important;
+  }
+  .text-center-sm img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .button_container {
+  margin-left: 597px;
+  }
+}
+
 @media (max-width: 991px) {
   .breadcrumb {
     padding: 8px 0;
@@ -802,11 +824,7 @@ hr {
   }
 }
 
-/* responsive utilities */
 @media (max-width: 767px) {
-  .page-top {
-    margin: 100px 5px 50px 5px;
-  }
   .text-center-xs {
     text-align: center !important;
   }
@@ -816,8 +834,8 @@ hr {
     margin-right: auto;
   }
   .grid {
-    margin-left: -15px;
-    margin-right: -15px;
+    margin-left: -2px;
+    margin-right: -2px;
   }
   .col-lg-10 {
     margin-left: -65px;
@@ -826,15 +844,9 @@ hr {
   footer {
     margin-left: -60px;
   }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .text-center-sm {
-    text-align: center !important;
-  }
-  .text-center-sm img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .button_container {
+    top: 50px;
+    right: 19px;
   }
 }
 
