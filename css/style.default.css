@@ -96,7 +96,7 @@ a i.fa {
 footer {
   margin-top: 45px;
   margin-bottom: 95px;
-  margin-left: 5.45%;
+  margin-left: 105px;
 }
 
 
@@ -556,14 +556,11 @@ BOX-MASONRY
 /*
 
 =====================
-DETAIL PAGE
+PROJECT PAGE
 =====================
 
 */
-.detail-page {
-  margin-right: 50px;
-  margin-left: 50px;
-}
+
 
 
 /*
@@ -832,6 +829,10 @@ hr {
   .button_container {
   margin-left: 597px;
   }
+  footer {
+    margin-top: 22px;
+    margin-bottom: 52px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -861,7 +862,7 @@ hr {
   footer {
     margin-top: 22px;
     margin-bottom: 52px;
-    margin-left: -52px;
+    margin-left: 13px;
   }
   .button_container {
     top: 50px;
