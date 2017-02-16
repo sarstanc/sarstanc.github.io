@@ -842,7 +842,9 @@ hr {
     margin-right: -65px;
   }
   footer {
-    margin-left: -60px;
+    margin-top: 22px;
+    margin-bottom: 52px;
+    margin-left: -52px;
   }
   .button_container {
     top: 50px;
