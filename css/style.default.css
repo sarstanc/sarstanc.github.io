@@ -118,6 +118,7 @@ GIF ANIMATION
   margin: 0 auto;
 }
 #ghostbusted {
+  margin-top: 109px;
   animation: ghost 3.0s infinite steps(1);
     animation-play-state: running;
 }
@@ -130,6 +131,7 @@ GIF ANIMATION
     animation-play-state: running;
 }
 #witch_fingers {
+  margin-top: 109px;
   animation: witch 3.0s infinite steps(1);
     animation-play-state: running;
 }
@@ -553,12 +555,12 @@ BOX-MASONRY
 /*
 
 =====================
-PROJECT PAGE
+DETAIL PAGE
 =====================
 
 */
 .content-column-content {
-  margin-top: 76px;
+  margin-top: 100px;
   margin-left: 90px;
   width: 89.15%;
   padding-bottom: 0;
@@ -632,7 +634,7 @@ NAVBAR
 .button_container_project {
   position: fixed;
   top: 100px;
-  margin-left: 1261px;
+  margin-left: 961px;
   /*right: 12%;*/
   height: 27px;
   width: 35px;
@@ -871,6 +873,9 @@ hr {
 @media (min-width: 992px) and (max-width: 1199px) {
   .button_container {
     margin-left: 816px;
+  }
+  .button_container_project {
+    margin-left: 916px;
   }
 }
 
