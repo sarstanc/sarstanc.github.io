@@ -118,7 +118,7 @@ GIF ANIMATION
   margin: 0 auto;
 }
 #ghostbusted {
-  margin-top: 109px;
+  margin-top: 150px;
   animation: ghost 3.0s infinite steps(1);
     animation-play-state: running;
 }
@@ -913,8 +913,8 @@ hr {
     margin-right: auto;
   }
   .grid {
-    margin-left: -2px;
-    margin-right: -2px;
+    margin-left: -2.25px;
+    margin-right: -2.25px;
   }
   footer {
     margin-top: 22px;
