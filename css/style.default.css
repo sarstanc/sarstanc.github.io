@@ -105,7 +105,7 @@ GIF ANIMATION
 
 */
 
-/* modified from http://jsfiddle.net/m87SY/67/ */
+/* modified from http://jsfiddle.net/m87SY/8/ */
 #ghostbusted, #belly_rub, #pop_lock, #witch_fingers, #circus_act {
   background-repeat: no-repeat;
   background-position: center;
@@ -139,11 +139,10 @@ GIF ANIMATION
   animation: circus 3.0s infinite steps(1);
     animation-play-state: running;
 }
-#ghostbusted:hover, #ghostbusted.hover_effect,
-#belly_rub:hover, #belly_rub:active, #belly_rub:focus, #belly_rub:focus:after,
-#pop_lock:hover,
-#witch_fingers:hover,
-#circus_act:hover {
+#ghostbusted:hover, #belly_rub:hover, #pop_lock:hover, #witch_fingers:hover, #circus_act:hover {
+  animation-play-state: paused;
+}
+#ghostbusted.paused, #belly_rub.paused, #pop_lock.paused, #witch_fingers.paused, #circus_act.paused {
   animation-play-state: paused;
 }
 @keyframes ghost {
@@ -170,10 +169,6 @@ GIF ANIMATION
   0%   { background-image: url(../img/animation/circus_act1.png); }
   33%  { background-image: url(../img/animation/circus_act2.png); }
   66% { background-image: url(../img/animation/circus_act3.png); }
-}
-.hover {
-  -webkit-user-select: none;
-  -webkit-touch-callout: none;
 }
 
 /*
@@ -290,6 +285,9 @@ BOX-MASONRY
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+}
+.box-masonry-image.mint {
+  background: #66ffcc;
 }
 .box-masonry .box-masonry-image.with-hover-icon:after {
   display: block;

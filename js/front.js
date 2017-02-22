@@ -2,8 +2,6 @@ masonry();
 
 $(function () {
 
-    offCanvas();
-    lightbox();
     carousels();
     utils();
     demo();
@@ -22,33 +20,6 @@ function masonry() {
 
     $grid.imagesLoaded().progress(function () {
         $grid.masonry('layout');
-    });
-}
-
-/* =========================================
- *  Off-canvas menu
- *  =======================================*/
-
-function offCanvas() {
-
-    $(document).ready(function () {
-        $('[data-toggle="offcanvas"]').click(function () {
-            $('.row-offcanvas').toggleClass('active')
-        });
-    });
-
-}
-
-
-/* =========================================
- *  lightbox
- *  =======================================*/
-
-function lightbox() {
-
-    $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
     });
 }
 
@@ -188,4 +159,23 @@ $(window).resize(function () {
         windowWidth = newWindowWidth;
     }
 
+});
+
+/* =========================================
+ *  menu
+ *  =======================================*/
+
+$('#toggle').click(function() {
+    $(this).toggleClass('active');
+    $('#overlay').toggleClass('open');
+});
+
+
+/* =========================================
+ *  gif pause
+ *  =======================================*/
+
+$('#ghostbusted, #belly_rub, #pop_lock, #witch_fingers, #circus_act').click(function() {
+    $(this).toggleClass('paused');
+    $(this).toggleClass('mint');
 });
