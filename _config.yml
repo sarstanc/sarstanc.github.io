@@ -20,7 +20,7 @@ description: >
   Sarah Stancik. Work built here combines software and hardware to
   explore interactive experiences.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000/"
+url: "http://www.hidden-bit.com/"
 instagram_username: sarstanc
 github_username:  sarstanc
 
