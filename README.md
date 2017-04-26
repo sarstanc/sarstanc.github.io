@@ -3,11 +3,10 @@ hidden-bit.com
 
 sarstanc.github.io
 sarahstancik.com
-===
+---
 
 personal website for Sarah Stancik
-
-==================
+---
 
 CREDITS
 
