@@ -1,36 +1,37 @@
 hidden-bit.com
 ==================
 
-sarstanc.github.io;
-sarahstancik.com
+sarstanc.github.io; sarahstancik.com
 
-personal website for Sarah Stancik
+Personal portfolio for Sarah Stancik
+
+:lemon: :full_moon_with_face: :crescent_moon: :zap: :yellow_heart: :crown: :sunflower: :flushed: :blossom: :hatching_chick:
 
 CREDITS
-
-jekyll-bootstrap
 ---
+
+JEKYLL-BOOTSTRAP
 
 Basic template for creating [Bootstrap 4](http://v4-alpha.getbootstrap.com/) applications
 with [Jekyll](http://jekyllrb.com).
-Created by [Cyril Suzat] (https://github.com/cyrilsuzat/jekyll-bootstrap).
+Created by [Cyril Suzat](https://github.com/cyrilsuzat/jekyll-bootstrap).
 
-startjekyll
----
+
+STARTJEKYLL
 
 Tutorial by [Tania Rascia](https://taniarascia.com/make-a-static-website-with-jekyll).
 
-navigation
----
+
+NAVIGATION
 
 Full-screen menu overlay by [Paul van Oijen](http://codepen.io/PaulVanO/pen/XJYGNQ).
 
-layout
----
+
+LAYOUT
 
 Grid layout using [Masonry](http://masonry.desandro.com/).
 
-gif animations
----
+
+GIF ANIMATIONS
 
 Modified from [jsfiddle] (http://jsfiddle.net/m87SY/8/) with suggested changes by [hasanavi](http://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size).
