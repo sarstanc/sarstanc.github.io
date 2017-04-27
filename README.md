@@ -5,7 +5,7 @@ sarstanc.github.io; sarahstancik.com
 
 Personal portfolio for Sarah Stancik
 
-:lemon: :full_moon_with_face: :crescent_moon: :zap: :yellow_heart: :crown: :sunflower: :flushed: :blossom: :hatching_chick:
+:lemon: :zap: :yellow_heart: :bulb: :blossom: :crown: :full_moon_with_face: :crescent_moon: :sunflower: :hatching_chick:
 
 CREDITS
 ---
