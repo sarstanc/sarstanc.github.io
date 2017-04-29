@@ -1,13 +1,12 @@
-hidden-bit.com
-==================
+#hidden-bit.com
 
 sarstanc.github.io; sarahstancik.com
 
----
+--
 
 Personal portfolio for Sarah Stancik
 
-:lemon: :zap: :crown: :blossom: :bulb: :full_moon_with_face: :yellow_heart: :crescent_moon: :sunflower: :hatching_chick:
+:lemon: :zap: :crown: :bulb: :full_moon_with_face: :blossom: :yellow_heart: :crescent_moon: :sunflower: :hatching_chick:
 
 CREDITS
 ---
