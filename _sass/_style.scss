@@ -127,8 +127,7 @@ margin: 0 auto; }
 
 #party_pants {
   animation: pants 3s infinite steps(1);
-  animation-play-state: running;
-  border: none; }
+  animation-play-state: running;}
 
 #ghostbusted:hover, #belly_rub:hover, #pop_lock:hover, #witch_fingers:hover, #circus_act:hover, #party_pants:hover, #ghostbusted.paused, #belly_rub.paused, #pop_lock.paused, #witch_fingers.paused, #circus_act.paused, #party_pants.paused {
   animation-play-state: paused; }
