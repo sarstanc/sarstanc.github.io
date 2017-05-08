@@ -175,7 +175,7 @@ $('#toggle').click(function() {
  *  gif pause
  *  =======================================*/
 
-$('#ghostbusted, #belly_rub, #pop_lock, #witch_fingers, #circus_act').click(function() {
+$('#ghostbusted, #belly_rub, #pop_lock, #witch_fingers, #circus_act, #party_pants').click(function() {
     $(this).toggleClass('paused');
     $(this).toggleClass('mint');
 });

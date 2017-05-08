@@ -93,7 +93,7 @@ img {
 
 // gif animations
 
-#ghostbusted, #belly_rub, #pop_lock, #witch_fingers, #circus_act {
+#ghostbusted, #belly_rub, #pop_lock, #witch_fingers, #circus_act, #party_pants {
 background-repeat: no-repeat;
 background-position: center;
 background-size: contain;
@@ -125,7 +125,12 @@ margin: 0 auto; }
   animation: circus 3s infinite steps(1);
   animation-play-state: running; }
 
-#ghostbusted:hover, #belly_rub:hover, #pop_lock:hover, #witch_fingers:hover, #circus_act:hover, #ghostbusted.paused, #belly_rub.paused, #pop_lock.paused, #witch_fingers.paused, #circus_act.paused {
+#party_pants {
+  animation: pants 3s infinite steps(1);
+  animation-play-state: running;
+  border: none; }
+
+#ghostbusted:hover, #belly_rub:hover, #pop_lock:hover, #witch_fingers:hover, #circus_act:hover, #party_pants:hover, #ghostbusted.paused, #belly_rub.paused, #pop_lock.paused, #witch_fingers.paused, #circus_act.paused, #party_pants.paused {
   animation-play-state: paused; }
 
 @keyframes ghost {
@@ -163,6 +168,13 @@ margin: 0 auto; }
     background-image: url(../img/animation/circus_act2.png); }
   66% {
     background-image: url(../img/animation/circus_act3.png); } }
+@keyframes pants {
+  0% {
+    background-image: url(../img/animation/party_pants1.png); }
+  33% {
+    background-image: url(../img/animation/party_pants2.png); }
+  66% {
+    background-image: url(../img/animation/party_pants3.png); } }
 
 
 // box masonry
