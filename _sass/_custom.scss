@@ -172,26 +172,25 @@ hr {
 
 /*  type  */
 h1, h2, h3 .h1, .h2, .h3 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  line-height: 1.2;
-  color: #000000; }
+  font-family: "Lato", sans-serif;
+  font-weight: 300; }
 
 h1, .h1 {
-  font-size: 24px;
+  font-size: 20px;
   font-family: "Courier New", serif;
   text-transform: uppercase;
   letter-spacing: 0.1em; }
 
 h2, .h2 {
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Courier New", serif;
   font-weight: lighter;
   text-transform: uppercase;
+  padding-top: 1em;
   letter-spacing: 0.1em; }
 
 h3, .h3 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   font-family: "Lato", sans-serif;
   font-style: italic; }
@@ -202,7 +201,7 @@ h1, .h1, h2, .h2, h3, .h3 {
 
 p {
   margin: 0 0 24px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   font-family: "Lato", sans-serif; }
 
