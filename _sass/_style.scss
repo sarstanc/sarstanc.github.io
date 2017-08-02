@@ -6,6 +6,16 @@ html, body {
   overflow-x: hidden; // prevent scroll on narrow devices
 }
 
+.container {
+  border: 1px solid blue;
+}
+.content-column {
+  border: 2px solid orange;
+}
+.content-column-content {
+  border: 2px solid red;
+}
+
 .img-responsive {
   margin: 0 auto; }
 
@@ -492,9 +502,9 @@ margin: 0 auto; }
     transform: translate(0, 100%); }
 
 
-//  project page
+//  projects and pages
 
-.content-column-content {
+.content-column {
   margin-top: 100px;
   margin-left: 90px;
   width: 89.15%;
