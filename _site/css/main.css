@@ -6528,9 +6528,3 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .invisible {
   visibility: hidden !important; }
-
-.starter-template {
-  text-align: center;
-  margin-top: 10rem; }
-  .starter-template .lead {
-    font-weight: 200; }
