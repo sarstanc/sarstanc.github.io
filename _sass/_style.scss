@@ -2,8 +2,23 @@
 
 // contents
 //
+// spacing
 // fonts
 
+
+// spacing
+
+.mb-0 {
+  margin-bottom: map-get($spacers, 0);
+}
+
+.mb-1 {
+  margin-bottom: map-get($spacers, 1);
+}
+
+.mb-4 {
+  margin-bottom: map-get($spacers, 4);
+}
 
 // fonts
 
