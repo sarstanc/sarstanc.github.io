@@ -6534,4 +6534,5 @@ h5 {
   letter-spacing: .05em; }
 
 p {
-  letter-spacing: .015em; }
+  letter-spacing: .025em;
+  white-space: pre-wrap; }
