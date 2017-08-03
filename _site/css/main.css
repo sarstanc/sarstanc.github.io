@@ -354,7 +354,7 @@ h4, .h4 {
   font-size: 1.25rem; }
 
 h5, .h5 {
-  font-size: 1rem; }
+  font-size: 1.05rem; }
 
 h6, .h6 {
   font-size: 0.875rem; }
@@ -6530,4 +6530,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   visibility: hidden !important; }
 
 h5 {
-  font-family: "Courier New", monospace; }
+  font-family: "Courier New", monospace;
+  letter-spacing: .05em; }
+
+p {
+  letter-spacing: .015em; }
