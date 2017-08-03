@@ -6531,7 +6531,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 h5 {
   font-family: "Courier New", monospace;
-  letter-spacing: .05em; }
+  letter-spacing: .05em;
+  text-transform: uppercase; }
 
 p {
   letter-spacing: .025em;
