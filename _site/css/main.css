@@ -6529,6 +6529,12 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+.content-column {
+  width: 750px;
+  position: absolute;
+  left: 15%;
+  top: left; }
+
 .mb-0 {
   margin-bottom: 0; }
 
