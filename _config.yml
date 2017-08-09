@@ -1,1 +1,15 @@
 port: 4000
+title: sarah stancik
+email: skstancik@gmail.com
+description: >
+  Virtual playground for multi-disciplinary designer Sarah Stancik. Welcome!
+url: "http://www.hidden-bit.com"
+instagram_username: sarstanc
+github_username: sarstanc
+
+# build settings
+sass:
+  sass_dir: _sass
+include: ['_pages', '_projects']
+kramdown:
+  input: GFM
