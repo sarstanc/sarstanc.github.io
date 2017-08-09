@@ -2,7 +2,5 @@
 # front matter comment to ensure Jekyll properly reads file.
 ---
 
-@import
-  "custom",
-  "bootstrap/bootstrap",
-  "style";
+@import "custom";
+@import "bootstrap/bootstrap";
