@@ -6529,14 +6529,21 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+.content-column {
+  width: 750px;
+  position: absolute;
+  left: 15%;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
 .mb-0 {
   margin-bottom: 0; }
 
-.mb-1 {
-  margin-bottom: 0.25rem; }
+.mb-2 {
+  margin-bottom: 0.5rem; }
 
-.mb-4 {
-  margin-bottom: 1.5rem; }
+.mb-3 {
+  margin-bottom: 1rem; }
 
 h5 {
   font-family: "Courier New", monospace;

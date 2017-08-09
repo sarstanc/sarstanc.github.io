@@ -5,18 +5,29 @@
 // spacing
 // fonts
 
+$side-margin: 15%;
+$x-margin: 100px;
+
+.content-column {
+  width: 750px;
+  position: absolute;
+  left: $side-margin;
+  margin-top: $x-margin;
+  margin-bottom: $x-margin;
+}
+
 // spacing
 
 .mb-0 {
   margin-bottom: map-get($spacers, 0);
 }
 
-.mb-1 {
-  margin-bottom: map-get($spacers, 1);
+.mb-2 {
+  margin-bottom: map-get($spacers, 2);
 }
 
-.mb-4 {
-  margin-bottom: map-get($spacers, 4);
+.mb-3 {
+  margin-bottom: map-get($spacers, 3);
 }
 
 // fonts
