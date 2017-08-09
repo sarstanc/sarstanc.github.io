@@ -6537,3 +6537,12 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .mb-4 {
   margin-bottom: 1.5rem; }
+
+h5 {
+  font-family: "Courier New", monospace;
+  letter-spacing: .05em;
+  text-transform: uppercase; }
+
+p {
+  letter-spacing: .025em;
+  white-space: pre-wrap; }
