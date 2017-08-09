@@ -2,18 +2,31 @@
 
 // contents
 //
+// media queries
 // spacing
+// grid breakpoints
+// grid containers
 // fonts
 
-$side-margin: 15%;
-$x-margin: 100px;
-
 .content-column {
-  width: 750px;
-  position: absolute;
-  left: $side-margin;
-  margin-top: $x-margin;
-  margin-bottom: $x-margin;
+  width: 70%;
+  margin: 100px auto;
+  position: relative;
+}
+
+// media queries
+
+@media (max-width: map-get($grid-breakpoints, md)) {
+  .content-column {
+    width: 80%;
+  }
+}
+
+@media (max-width: map-get($grid-breakpoints, sm)) {
+  .content-column {
+    width: 99%;
+    margin: 20px auto;
+  }
 }
 
 // spacing

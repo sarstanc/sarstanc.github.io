@@ -6530,12 +6530,17 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   visibility: hidden !important; }
 
 .content-column {
-  width: 750px;
-  position: absolute;
-  left: 15%;
-  margin-top: 100px;
-  margin-bottom: 100px; }
+  width: 70%;
+  margin: 100px auto;
+  position: relative; }
 
+@media (max-width: 768px) {
+  .content-column {
+    width: 80%; } }
+@media (max-width: 576px) {
+  .content-column {
+    width: 99%;
+    margin: 20px auto; } }
 .mb-0 {
   margin-bottom: 0; }
 
