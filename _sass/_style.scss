@@ -4,9 +4,11 @@
 //
 // media queries
 // spacing
+// nav
 // grid breakpoints
 // grid containers
 // fonts
+
 
 .content-column, .content-wide {
   margin: 100px auto;
@@ -51,6 +53,19 @@
 
 .mb-4 {
   margin-bottom: map-get($spacers, 4);
+}
+
+// nav
+
+.button-container {
+  width: 50px;
+  z-index: 1000;
+  position: fixed;
+  right: 30%;
+}
+
+.button-container img {
+  width: 100%;
 }
 
 // fonts

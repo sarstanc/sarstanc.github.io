@@ -6558,6 +6558,15 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .mb-4 {
   margin-bottom: 1.5rem; }
 
+.button-container {
+  width: 50px;
+  z-index: 1000;
+  position: fixed;
+  right: 30%; }
+
+.button-container img {
+  width: 100%; }
+
 h5 {
   font-family: "Courier New", monospace;
   letter-spacing: .05em;
