@@ -24,7 +24,7 @@
 // media queries
 
 @media (max-width: map-get($grid-breakpoints, md)) {
-  .content-column {
+  .content-column, .content-wide {
     width: 80%;
   }
 }
@@ -32,8 +32,6 @@
 @media (max-width: map-get($grid-breakpoints, sm)) {
   .content-column, .content-wide {
     margin: 20px auto;
-  }
-  .content-column {
     width: 99%;
   }
   .portfolio-wide {

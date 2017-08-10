@@ -6540,13 +6540,11 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   width: 400px; }
 
 @media (max-width: 768px) {
-  .content-column {
+  .content-column, .content-wide {
     width: 80%; } }
 @media (max-width: 576px) {
   .content-column, .content-wide {
-    margin: 20px auto; }
-
-  .content-column {
+    margin: 20px auto;
     width: 99%; }
 
   .portfolio-wide {
