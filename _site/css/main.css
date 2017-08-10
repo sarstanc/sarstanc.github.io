@@ -6529,10 +6529,12 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
-.content-column {
-  width: 70%;
+.content-column, .content-wide {
   margin: 100px auto;
   position: relative; }
+
+.content-column {
+  width: 70%; }
 
 @media (max-width: 768px) {
   .content-column {
