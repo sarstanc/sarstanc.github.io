@@ -67,9 +67,9 @@ $gray-lightest:             #f7f7f9 !default;
 
 // Reassign color vars to semantic color scheme
 $brand-primary:             #ffcc00; // dandelion
-$brand-success:             $green !default;
-$brand-info:                $teal !default;
-$brand-warning:             $orange !default;
+$brand-success:             #ff6633; // salmon
+$brand-info:                $black;
+$brand-warning:             #006633; // forest
 $brand-danger:              $red !default;
 $brand-inverse:             #66ffcc; // mint
 
