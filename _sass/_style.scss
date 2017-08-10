@@ -30,9 +30,11 @@
 }
 
 @media (max-width: map-get($grid-breakpoints, sm)) {
+  .content-column, .content-wide {
+    margin: 20px auto;
+  }
   .content-column {
     width: 99%;
-    margin: 20px auto;
   }
   .portfolio-wide {
     width: 370px;

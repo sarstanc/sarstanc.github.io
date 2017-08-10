@@ -6543,9 +6543,11 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   .content-column {
     width: 80%; } }
 @media (max-width: 576px) {
-  .content-column {
-    width: 99%;
+  .content-column, .content-wide {
     margin: 20px auto; }
+
+  .content-column {
+    width: 99%; }
 
   .portfolio-wide {
     width: 370px; } }
