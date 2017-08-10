@@ -6559,13 +6559,18 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   margin-bottom: 1.5rem; }
 
 .button-container {
-  width: 50px;
+  width: 35px;
   z-index: 1000;
   position: fixed;
   right: 30%; }
 
 .button-container img {
   width: 100%; }
+
+#tesselate {
+  position: absolute;
+  top: 0;
+  left: 0; }
 
 h5 {
   font-family: "Courier New", monospace;
