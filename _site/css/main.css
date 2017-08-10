@@ -6539,6 +6539,20 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .portfolio-wide {
   width: 400px; }
 
+.button-container {
+  width: 35px;
+  z-index: 1000;
+  position: fixed;
+  right: 30%; }
+
+.button-container img {
+  width: 100%; }
+
+#tesselate {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
 @media (max-width: 768px) {
   .content-column, .content-wide {
     width: 80%; } }
@@ -6557,20 +6571,6 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .mb-4 {
   margin-bottom: 1.5rem; }
-
-.button-container {
-  width: 35px;
-  z-index: 1000;
-  position: fixed;
-  right: 30%; }
-
-.button-container img {
-  width: 100%; }
-
-#tesselate {
-  position: absolute;
-  top: 0;
-  left: 0; }
 
 h5 {
   font-family: "Courier New", monospace;

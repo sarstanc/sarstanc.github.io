@@ -2,13 +2,16 @@
 
 // contents
 //
+// containers
+// nav
 // media queries
 // spacing
-// nav
 // grid breakpoints
 // grid containers
 // fonts
 
+
+// containers
 
 .content-column, .content-wide {
   margin: 100px auto;
@@ -21,6 +24,25 @@
 
 .portfolio-wide {
   width: 400px;
+}
+
+// nav
+
+.button-container {
+  width: 35px;
+  z-index: 1000;
+  position: fixed;
+  right: 30%;
+}
+
+.button-container img {
+  width: 100%;
+}
+
+#tesselate {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 // media queries
@@ -53,25 +75,6 @@
 
 .mb-4 {
   margin-bottom: map-get($spacers, 4);
-}
-
-// nav
-
-.button-container {
-  width: 35px;
-  z-index: 1000;
-  position: fixed;
-  right: 30%;
-}
-
-.button-container img {
-  width: 100%;
-}
-
-#tesselate {
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 // fonts
