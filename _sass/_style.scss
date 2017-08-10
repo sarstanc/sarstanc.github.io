@@ -3,7 +3,6 @@
 // contents
 //
 // containers
-// nav
 // media queries
 // spacing
 // grid breakpoints
@@ -24,25 +23,6 @@
 
 .portfolio-wide {
   width: 400px;
-}
-
-// nav
-
-.button-container {
-  width: 35px;
-  z-index: 1000;
-  position: fixed;
-  right: 30%;
-}
-
-.button-container img {
-  width: 100%;
-}
-
-#tesselate {
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 // media queries

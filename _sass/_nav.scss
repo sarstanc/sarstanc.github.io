@@ -1,0 +1,24 @@
+// nav style
+
+.button-container {
+  width: 35px;
+  z-index: 1000;
+  position: fixed;
+  right: 30%;
+}
+
+.button-container img {
+  width: 100%;
+}
+
+#tesselate {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.overlay {
+  z-index: 10;
+  position: fixed;
+  background: $brand-primary;
+}

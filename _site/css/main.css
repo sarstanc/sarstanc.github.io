@@ -6539,20 +6539,6 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .portfolio-wide {
   width: 400px; }
 
-.button-container {
-  width: 35px;
-  z-index: 1000;
-  position: fixed;
-  right: 30%; }
-
-.button-container img {
-  width: 100%; }
-
-#tesselate {
-  position: absolute;
-  top: 0;
-  left: 0; }
-
 @media (max-width: 768px) {
   .content-column, .content-wide {
     width: 80%; } }
@@ -6580,3 +6566,22 @@ h5 {
 p {
   letter-spacing: .025em;
   white-space: pre-wrap; }
+
+.button-container {
+  width: 35px;
+  z-index: 1000;
+  position: fixed;
+  right: 30%; }
+
+.button-container img {
+  width: 100%; }
+
+#tesselate {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.overlay {
+  z-index: 10;
+  position: fixed;
+  background: #ffcc00; }
