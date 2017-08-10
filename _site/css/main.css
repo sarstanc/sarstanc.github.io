@@ -6536,6 +6536,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .content-column {
   width: 70%; }
 
+.portfolio {
+  width: 400px; }
+
 @media (max-width: 768px) {
   .content-column {
     width: 80%; } }
