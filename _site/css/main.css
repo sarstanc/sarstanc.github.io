@@ -6584,4 +6584,5 @@ p {
 .overlay {
   z-index: 10;
   position: fixed;
+  right: 30%;
   background: #ffcc00; }
