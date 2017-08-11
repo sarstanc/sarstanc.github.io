@@ -6571,14 +6571,19 @@ p {
   width: 35px;
   z-index: 100;
   position: fixed;
-  right: 30%;
+  right: 20%;
+  top: 5%;
   cursor: pointer;
   transition: opacity .25s ease; }
   .button-container:hover {
     opacity: .7; }
   .button-container img {
     width: 100%;
-    transition: all .35s ease; }
+    transition: all .35s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer; }
 
 #tesselate {
   position: absolute;
@@ -6588,17 +6593,7 @@ p {
 .overlay {
   z-index: 10;
   position: fixed;
-  background: #ffcc00; }
-
-.button_container {
-  top: 5%; }
-  .button_container img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    cursor: pointer; }
-
-.overlay {
+  background: #ffcc00;
   top: 0;
   left: 0;
   width: 100%;

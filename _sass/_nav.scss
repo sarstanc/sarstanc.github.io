@@ -4,7 +4,8 @@
   width: 35px;
   z-index: 100;
   position: fixed;
-  right: 30%;
+  right: 20%;
+  top: 5%;
   cursor: pointer;
   transition: opacity .25s ease;
 
@@ -15,6 +16,10 @@
   img {
     width: 100%;
     transition: all .35s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
   }
 }
 
@@ -24,31 +29,13 @@
   left: 0;
 }
 
+$color-active: #FFF;
+$color-link: #FFF;
+
 .overlay {
   z-index: 10;
   position: fixed;
   background: $brand-primary;
-}
-
-
-////
-
-$color-active: #FFF;
-$color-link: #FFF;
-
-.button_container {
-  top: 5%;
-
-  img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  cursor: pointer;
-
-  }
-}
-
-.overlay {
   top: 0;
   left: 0;
   width: 100%;
