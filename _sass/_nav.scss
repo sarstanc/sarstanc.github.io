@@ -29,9 +29,6 @@
   left: 0;
 }
 
-$color-active: #FFF;
-$color-link: #FFF;
-
 .overlay {
   z-index: 10;
   position: fixed;
@@ -65,65 +62,10 @@ $color-link: #FFF;
       }
     }
   }
-  nav {
-    position: relative;
-    height: 70%;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-  }
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-    display: inline-block;
-    position: relative;
-    height: 100%;
-
-    li {
-      display: block;
-      height: 25%;
-      height: calc(100% / 4);
-      min-height: 50px;
-      position: relative;
-      opacity: 0;
-
-      a {
-        display: block;
-        position: relative;
-        color: $color-link;
-        text-decoration: none;
-        overflow: hidden;
-
-        &:hover:after,
-         &:focus:after,
-         &:active:after {
-           width: 100%;
-         }
-
-        &:after {
-          content: '';
-          position: absolute;
-          bottom: 0;
-          left: 50%;
-          width: 0%;
-          transform: translateX(-50%);
-          height: 3px;
-          background: $color-link;
-          transition: .35s;
-        }
-      }
-    }
-  }
 }
 
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    left: 20%;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
+.overlay-menu {
+  border: 2px solid purple;
+  width: 20%;
+  margin: auto;
 }
