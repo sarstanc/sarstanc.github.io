@@ -3450,14 +3450,14 @@ a.badge:focus, a.badge:hover {
 
 .list-group-item-action {
   width: 100%;
-  color: #464a4c;
+  color: #fff;
   text-align: inherit; }
   .list-group-item-action:focus, .list-group-item-action:hover {
-    color: #464a4c;
+    color: #fff;
     text-decoration: none;
     background-color: #f7f7f9; }
   .list-group-item-action:active {
-    color: #292b2c;
+    color: #000;
     background-color: #eceeef; }
 
 .list-group-item {
@@ -3465,7 +3465,7 @@ a.badge:focus, a.badge:hover {
   display: block;
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: #fff;
+  background-color: none;
   border: 0 solid none; }
   .list-group-item:first-child {
     border-top-left-radius: 0;
@@ -3479,7 +3479,7 @@ a.badge:focus, a.badge:hover {
   .list-group-item.disabled, .list-group-item:disabled {
     color: #636c72;
     cursor: not-allowed;
-    background-color: #fff; }
+    background-color: none; }
   .list-group-item.active {
     z-index: 2;
     color: #ffcc00;
@@ -6609,6 +6609,3 @@ p {
     opacity: .9;
     visibility: visible;
     height: 100%; }
-
-.overlay-menu {
-  position: absolute; }

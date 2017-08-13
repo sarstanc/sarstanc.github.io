@@ -153,8 +153,8 @@ $text-muted: $gray-light !default;
 
 // List group
 
-$list-group-color:               $body-color !default;
-$list-group-bg:                  $white !default;
+$list-group-color:               $brand-info;
+$list-group-bg:                  none;
 $list-group-border-color:        none;
 $list-group-border-width:        0;
 $list-group-border-radius:       0;
@@ -170,8 +170,8 @@ $list-group-active-border:       $list-group-active-bg !default;
 $list-group-disabled-color:      $gray-light !default;
 $list-group-disabled-bg:         $list-group-bg !default;
 
-$list-group-link-color:          $gray !default;
-$list-group-link-hover-color:    $list-group-link-color !default;
+$list-group-link-color:          $white;
+$list-group-link-hover-color:    $white;
 
-$list-group-link-active-color:   $list-group-color !default;
+$list-group-link-active-color:   $brand-info;
 $list-group-link-active-bg:      $gray-lighter !default;
