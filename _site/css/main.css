@@ -6577,18 +6577,12 @@ p {
   transition: opacity .25s ease; }
   .button-container:hover {
     opacity: .7; }
-  .button-container img {
-    width: 100%;
-    transition: all .35s ease;
-    position: absolute;
-    top: 0;
-    left: 0;
-    cursor: pointer; }
 
 #tesselate {
   position: absolute;
   top: 0;
-  left: 0; }
+  left: 0;
+  width: 35px; }
 
 .overlay {
   z-index: 10;

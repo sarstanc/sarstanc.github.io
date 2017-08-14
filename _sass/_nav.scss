@@ -14,21 +14,13 @@
   &:hover {
     opacity: .7;
   }
-
-  img {
-    width: 100%;
-    transition: all .35s ease;
-    position: absolute;
-    top: 0;
-    left: 0;
-    cursor: pointer;
-  }
 }
 
 #tesselate {
   position: absolute;
   top: 0;
   left: 0;
+  width: 35px;
 }
 
 // menu overlay
