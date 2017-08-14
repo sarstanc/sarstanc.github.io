@@ -21,6 +21,12 @@
   top: 0;
   left: 0;
   width: 35px;
+  stroke: $brand-primary;
+  fill: none;
+
+  &:active {
+    stroke: $black;
+  }
 }
 
 // menu overlay

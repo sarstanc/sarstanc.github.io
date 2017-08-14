@@ -6582,7 +6582,11 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  width: 35px; }
+  width: 35px;
+  stroke: #ffcc00;
+  fill: none; }
+  #tesselate:active {
+    stroke: #000; }
 
 .overlay {
   z-index: 10;
