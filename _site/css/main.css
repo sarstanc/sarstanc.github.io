@@ -6544,7 +6544,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     width: 80%; } }
 @media (max-width: 576px) {
   .content-column, .content-wide {
-    margin: 20px auto;
+    margin: 75px auto;
     width: 99%; }
 
   .portfolio-wide {
@@ -6569,8 +6569,8 @@ p {
 
 .tesselate {
   position: absolute;
-  top: 5%;
-  right: 20%;
+  top: 100px;
+  right: 15.75%;
   width: 35px;
   stroke: #ffcc00;
   fill: none;
@@ -6601,3 +6601,11 @@ p {
     opacity: .9;
     visibility: visible;
     height: 100%; }
+
+@media (max-width: 768px) {
+  .tesselate {
+    right: 12%; } }
+@media (max-width: 576px) {
+  .tesselate {
+    top: 20px;
+    right: 3.5%; } }

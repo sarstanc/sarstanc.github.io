@@ -1,11 +1,18 @@
 // nav style
 
-// nav icon
+// contents
+//
+// icon
+// menu overlay
+// media queries
+
+
+// icon
 
 .tesselate {
   position: absolute;
-  top: 5%;
-  right: 20%;
+  top: 100px;
+  right: 15.75%;
   width: 35px;
   stroke: $brand-primary;
   fill: none;
@@ -44,5 +51,20 @@
     opacity: .9;
     visibility: visible;
     height: 100%;
+  }
+}
+
+// media queries
+
+@media (max-width: map-get($grid-breakpoints, md)) {
+  .tesselate {
+    right: 12%;
+  }
+}
+
+@media (max-width: map-get($grid-breakpoints, sm)) {
+  .tesselate {
+    top: 20px;
+    right: 3.5%;
   }
 }
