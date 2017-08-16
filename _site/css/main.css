@@ -6539,6 +6539,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .portfolio-wide {
   width: 400px; }
 
+.portfolio-narrow {
+  width: 250px; }
+
 @media (max-width: 768px) {
   .content-column, .content-wide {
     width: 80%; } }
