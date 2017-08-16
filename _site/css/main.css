@@ -6536,10 +6536,10 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .content-column {
   width: 70%; }
 
-.portfolio-wide {
+.portfolio-lg {
   width: 400px; }
 
-.portfolio-narrow {
+.portfolio-md {
   width: 250px; }
 
 @media (max-width: 768px) {
@@ -6550,7 +6550,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     margin: 75px auto;
     width: 99%; }
 
-  .portfolio-wide {
+  .portfolio-lg {
     width: 100%; } }
 .mb-0 {
   margin-bottom: 0; }
