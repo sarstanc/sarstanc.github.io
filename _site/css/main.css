@@ -6540,7 +6540,10 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   width: 400px; }
 
 .portfolio-md {
-  width: 250px; }
+  width: 335px; }
+
+.portfolio-sm {
+  width: 200px; }
 
 @media (max-width: 768px) {
   .content-column, .content-wide {
