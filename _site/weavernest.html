@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- page title -->
+  <title>weavernest</title>
+</head>
+
+
+<body>
+
+  <div class="container-fluid">
+    <!-- menu icon -->
+
+<!-- inline tesselate svg -->
+<svg version="1.1" class="tesselate" id="toggle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 310 310" enable-background="new 0 0 310 310" xml:space="preserve">
+<g>
+	<polygon stroke-width="11" stroke-linecap="square" stroke-miterlimit="10" points="
+		116.852,221.827 193.152,250.357 109.042,302.9 35.396,222.537 109.042,140.747 		"/>
+	<polygon stroke-width="11" stroke-linecap="square" stroke-miterlimit="10" points="193.152,88.189
+		116.852,59.658 200.959,7.1 274.604,87.479 200.959,169.273 		"/>
+</g>
+</svg>
+
+<!-- menu items -->
+<div class="overlay" id="overlay" class="list-group">
+  <nav class="overlay-menu">
+    <a href="/info" class="list-group-item list-group-item-action">info</a></li>
+    <a href="/cv" class="list-group-item list-group-item-action">cv</a></li>
+  </nav>
+</div>
+
+    <div class="content-column">
+  <h5 class="mb-2">Weavernest</h5>
+<p class="mb-4">Bio-[In]formatic Modeling  --  Danelle Briscoe, Chandrajit Bajaj
+Spring 2016</p>
+
+<img src="img/weavernest/3Dprint.jpg" alt="" class="portfolio-lg mb-2">
+
+<p class="mb-4">Weaver bird nests consist of many small nodes clustered together to form a single mass, and multiple openings access the central void. The birds construct the overall shape by weaving together countless twigs, grass and feathers until a very solid structure emerges.</p>
+
+<img src="img/weavernest/BIM_exterior2.jpg" alt="" class="portfolio-lg mb-2">
+
+<p class="mb-4">L-systems and flocking in Grasshopper produce a digital method to build a similar structure. First, modeling the central void as a solid objects gives the flocking particles a surface to slide across. These particles generate a collection of random curves that enclose the void. Then the Cocoon plug-in gives thickness to the resulting curves as a single mesh, seamlessly leading to an .stl file for 3D printing. A portion of the model printed with strands thinner than .06 inches in diameter, tested its resemblance to a nest. Varying the density of the flocking particles changes the structural integrity of the model since its strength comes from strand intersections. Ideally, the flock could be increased until it reaches the density of an actual weaver bird nest, allowing for the potential to create artificial nests.
+
+The class selected this project as one of three to be included in the UTSoA Fall 2016 exhibit on the Living Wall under the heading “collaboration + fabrication”.</p>
+
+<img src="img/weavernest/exhibition.png" alt="" class="portfolio-lg">
+
+</div>
+
+  </div>
+
+  <!-- JavaScript -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/text.js"></script>
+
+<!-- Google Analytics site ID: UA-92182828-1 -->
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-92182828-1', 'auto');
+	ga('send', 'pageview');
+
+</script>
+
+</body>
+
+</html>
